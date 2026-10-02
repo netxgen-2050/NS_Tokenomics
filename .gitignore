@@ -1,0 +1,12 @@
+# Private / sensitive — never push
+private/
+*.txt.private
+# Large or third-party files
+sources/*.pptx
+sources/*.key
+*.xlsx
+# OS / editor
+.DS_Store
+.obsidian/workspace*
+.obsidian/cache
+__pycache__/
