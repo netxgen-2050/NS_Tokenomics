@@ -90,6 +90,7 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 
 - This folder is both an **Obsidian vault** (open the folder as a vault; `[[links]]` work) and a **private Git repository**.
 - Branches: `main` (agreed content), `gustavo`, `gabriel`, `vagner` (personal working branches). Work on your branch, open a pull request to `main`, and discuss in the PR.
+- `AGENTS.md` / `CLAUDE.md` tell your AI assistant (Claude, ChatGPT, Cursor…) how to work here: rules, source citations, privacy, branches. Point your assistant at them first.
 - `private/` is git-ignored: the call transcript, the financial model (Vagner's original stays with Vagner) and large third-party files (e.g. the Avedam Kezum deck) live only on Gus's machine.
 - `../NS_platform` (product and legal research) is a sibling, read-only source; it isn't part of this repo. Paths starting with `../NS_platform/` refer to it ❓ (decide whether to share it as a second repo).
 - Rerun the models: `python3 sim/hatch_sim.py` and `python3 sim/value_model_sim.py`.
