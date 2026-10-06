@@ -30,6 +30,7 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 | If you are… | Read, in this order | Time |
 |---|---|---|
+| **Whole team, before the 12 Oct meeting** | 15 (micro-investor offer) → 14 (meeting notes) → 09 §1 and §6 | 20 min |
 | **Gabriel (COO / legal)** | 13 (call) → 06 (legal friction map, L1–L23) → 01 (context) → 12 §3–4 (who can be offered what) → 05 (community licences) | 40 min |
 | **Vagner (CFO)** | 13 → 12 (costs, use of funds) → 09 (investor value model) → `sim/RESULTS_value_model.md` → `sim/RESULTS.md` → 11 ($NETX v2 review) | 45 min |
 | **Gus** | 07 (open questions, answered and new) → 09 → 10 → 04 | — |
@@ -56,6 +57,8 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 11 | **Review of $NETX v2 tokenomics (2025)** | Keep / adapt / drop from last year's paper |
 | 12 | **Round Inputs (costs and use of funds)** | Costs, use of funds, trust micro-round, who can be offered what |
 | 13 | **Call 2026-10-02 (decisions and actions)** | Sanitised decisions, divergences, action items |
+| 14 | **Team meeting 2026-10-05 (inputs and actions)** | Team inputs on tokenomics, micro-investors, masterplan; action items |
+| 15 | **Micro-investor offer (USD 2–5k tickets)** | What a small ticket can legally get: now / later / never-as-phrased; Founding Circle bundle; answers to the investor's six questions |
 | sim | `hatch_sim.py`, `value_model_sim.py` + RESULTS files | Reproducible models (Python, stdlib only) |
 | sources | Lighthouse RTMM brief, BioPueblo KMZ | Inputs we can share |
 | private | Transcript, financial model, large/third-party files | **Git-ignored**: never pushed |
@@ -99,6 +102,7 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 
 - ✅ Vision, MVP, legal map, community kits, glossary (v0.1, morning)
 - ✅ After the call: investor value model, governance options, review of $NETX v2, round inputs, call notes, RAIZ rename, sources everywhere (v0.2)
+- ✅ After the 2026-10-05 team meeting: micro-investor offer (15), team-meeting notes (14), legal items L26–L30, backlog section F (v0.3)
 - ⏭ Next: counsel pack (06 §3 + structure diagram), Vagner's bounded Lighthouse model, Council of Regeneration charter, one-page explainer for collaborators.
 
 ## Sources & logic used

@@ -74,6 +74,13 @@ A useful bundle for "plan-B" investors: **SAFE ticket (company) + RAIZ Founding 
 3. Replace the Molvento-based land allocation with the RTMM allocation for the Lighthouse case (brief Challenge 2) [^brief].
 4. Cap-table clean-up options for the next round (see private call notes) ❓.
 
+## 6. Updates after the 2026-10-05 team meeting [^team]
+
+- **Legal quote:** the first quote received was too high; Gabriel is requesting a second one. Until then, keep the model's base range (USD 70–120k) [^model].
+- **Micro-investor demand** (USD 2–5k tickets via connectors) confirmed; product proposal in [[15 - Micro-investor offer (USD 2-5k tickets)]] (Founding Circle = SAFE + RAIZ Pass).
+- **Tokenised capital** for part of the 375k was proposed (third-party platforms). Only compliant for the land pot via a CNV-route vehicle, or for non-AR buyers (06 L29). It doesn't change the SAFE plan for this round.
+- **Jurisdiction options** widened: Delaware or Wyoming (US), Uruguay, or an Argentine holding (tax doubts) [^team].
+
 ## Sources & logic used
 
 - Logic: three pots / three wrappers (diode); costs anchored on the CFO's own model ranges, with gaps marked as estimates [criterio].
@@ -83,3 +90,4 @@ A useful bundle for "plan-B" investors: **SAFE ticket (company) + RAIZ Founding 
 [^call]: Private call Gus–Gabriel, 2026-10-02 (private transcript); sanitised notes in [[13 - Call 2026-10-02 (decisions and actions)]].
 [^brief]: `sources/NetX_Lighthouse_Regenerative_Territorial_Model_AI.md` §10, §14–15.
 [^drs]: `../NS_platform/Documentation/Investigacion — DRS, fideicomisos y tokenizacion (Lighthouse VRN) 2026-09-29.md` §4 B.5, §6 D.1.
+[^team]: Core team monthly, 2026-10-05 (Fathom transcript in `../NS_platform/Documentation/transcripts/Octubre/`); see [[14 - Team meeting 2026-10-05 (inputs and actions)]].

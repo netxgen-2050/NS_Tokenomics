@@ -39,18 +39,18 @@ Back to [[00 - README]]
 
 ## 2. Action items
 
-| Owner | Action | By |
-|---|---|---|
-| Gabriel | Keep researching the legal infrastructure (fideicomiso for Lote 7, use-rights/licence figure, Guardian) and **get quotes from lawyers** | next 2 weeks |
-| Gabriel | Close the agreement with BioPueblo; confirm with Diego that **one fideicomiso covers all of Lote 7** | ❓ |
-| Gabriel | Jurisdiction migration (flip) away from Próspera; options Uruguay / Wyoming | ❓ |
-| Gabriel | Share the 2025 tokenomics paper (done: reviewed in [[11 - Review of $NETX v2 tokenomics (2025)]]) and the transcript (done, private) | ✅ |
-| Gabriel + Vagner | Discuss the round next week; Vagner to integrate these concepts into the model | week of 5 Oct |
-| Gus | Estimate costs (platform after Feb, legal, setup) as round input → first version in [[12 - Round Inputs (costs and use of funds)]] | ✅ v0.1 |
-| Gus | Define what to do with the money Oct → Feb and what must be ready for the Gathering → [[04 - MVP February 2027 (The Hatch)]] | ✅ v0.2 |
-| Gus, Gabriel, Vagner | Align on one strategy before presenting it to the CEO | before mid-Oct |
-| Gus | Verify with Miguel Ángel his interest in co-designing the 12 communities | ❓ |
-| Gus | Talk to the trust-graph partner about what could be ready for Feb vs later | ❓ |
+| Owner                | Action                                                                                                                                  | By             |
+| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| Gabriel              | Keep researching the legal infrastructure (fideicomiso for Lote 7, use-rights/licence figure, Guardian) and **get quotes from lawyers** | next 2 weeks   |
+| Gabriel              | Close the agreement with BioPueblo; confirm with Diego that **one fideicomiso covers all of Lote 7**                                    | ❓              |
+| Gabriel              | Jurisdiction migration (flip) away from Próspera; options Uruguay / Wyoming                                                             | ❓              |
+| Gabriel              | Share the 2025 tokenomics paper (done: reviewed in [[11 - Review of $NETX v2 tokenomics (2025)]]) and the transcript (done, private)    | ✅              |
+| Gabriel + Vagner     | Discuss the round next week; Vagner to integrate these concepts into the model                                                          | week of 5 Oct  |
+| Gus                  | Estimate costs (platform after Feb, legal, setup) as round input → first version in [[12 - Round Inputs (costs and use of funds)]]      | ✅ v0.1         |
+| Gus                  | Define what to do with the money Oct → Feb and what must be ready for the Gathering → [[04 - MVP February 2027 (The Hatch)]]            | ✅ v0.2         |
+| Gus, Gabriel, Vagner | Align on one strategy before presenting it to the CEO                                                                                   | before mid-Oct |
+| Gus                  | Verify with Miguel Ángel his interest in co-designing the 12 communities                                                                | ❓              |
+| Gus                  | Talk to the trust-graph partner about what could be ready for Feb vs later                                                              | ❓              |
 
 ## 3. Divergences to resolve (Gus ↔ Gabriel)
 

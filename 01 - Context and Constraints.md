@@ -83,6 +83,16 @@ The tokenomics is, in large part, our answer to that last question.
 | Name | Mother token = **RAIZ** | All docs |
 | Land law politics | Gabriel mentioned a bill to relax limits on foreign land ownership (Ley de Tierras) in Congress; the 29-09 research records the Senate approving the property bill **without** the land chapter on 6/7-08-2026 [^drs] | Re-verify before any foreign-buyer flow ❓ |
 
+## 7. Updates from the 2026-10-05 team meeting [^team]
+
+| Topic | Update |
+|---|---|
+| Scope | NetX's focus is **Lighthouse, "our barrio"**, inside a BioPueblo town of ~10 barrios; platform could later serve other barrios |
+| Masterplan | Preliminary masterplan **15 Oct**; anteproyecto end of October → surveyor → municipality (Martín). GIS base includes topography, hydrology and historical flood levels |
+| Flood strip | Part of the land next to the river may be unbuildable → keep as conservation commons (06 L30) |
+| Land signature | LOI with BioPueblo expected **mid-October** |
+| Micro-investors | Demand for USD 2–5k tickets; see [[15 - Micro-investor offer (USD 2-5k tickets)]] |
+
 ## Sources & logic used
 
 - `../NS_platform/Documentation/` files 00, 03, 10, 11, 13, 16, `Desarrollo/02–03`, `requisitos-legales-plataforma-2026-09-29.md`, `Investigacion — DRS, fideicomisos y tokenizacion (Lighthouse VRN) 2026-09-29.md` (read 2026-10-02).
@@ -91,3 +101,4 @@ The tokenomics is, in large part, our answer to that last question.
 
 [^call]: Private call Gus–Gabriel, 2026-10-02 (private transcript); sanitised in [[13 - Call 2026-10-02 (decisions and actions)]].
 [^drs]: `../NS_platform/Documentation/Investigacion — DRS, fideicomisos y tokenizacion (Lighthouse VRN) 2026-09-29.md` §3 A.1, §3 A.5.
+[^team]: Core team monthly, 2026-10-05 (Fathom transcript in `../NS_platform/Documentation/transcripts/Octubre/`); see [[14 - Team meeting 2026-10-05 (inputs and actions)]].

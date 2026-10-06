@@ -53,7 +53,17 @@ The NS_platform glossary already uses UX words (Semillas, Pactos, Pase, Sumarte)
 | L24 | Community airdrops to RAIZ holders | If airdropped vouchers are transferable/financial, they inherit L1/L6 issues | Ley 25.246 art. 4 bis | Airdrops = redeemable goods/services credits, non-transferable in AR | Low |
 | L25 | Wyoming LLC or Uruguay for the holding | US securities law for US persons; Uruguay's virtual-asset framework [verify]; holding must not be a fideicomiso beneficiary (taxes the trust) | Research §4 B.3, B.5 | Holding owns the AR SAS; the SAS (not the LLC) contracts with the trust | Low–medium |
 
-## 2. 🏴‍☠️ Offshore options for RAIZ v2 (transferable)
+### New after the 2026-10-05 team meeting [^team]
+
+| # | Vision element | 🧨 Challenge | Rule (verify) | 🏴‍☠️ Hack / path | Residual risk |
+|---|---|---|---|---|---|
+| L26 | **Transferable RAIZ without running a market** (issue only; holders trade elsewhere) | Not running the market doesn't remove securities risk: if buyers expect profit, the *issuance* is the unauthorised offering; providing liquidity, market-making, buybacks, burns or listing help make the market "ours" | Ley 26.831 art. 2; PSAV rules (self-issuance not covered per research [^drs]) | **Members-only transfers (allowlist)**: RAIZ moves only to KYC'd, admitted members, with exit tribute to the Commons Fund; avoids "tráfico generalizado" | Medium ❓ counsel |
+| L27 | Micro-investors' 5k **"discounted from your lot later"** | Money linked to lots before approval; and Lighthouse lots are never sold | Ord. 173 arts. 41–46; Ley 14.005 | Credit toward **licence entry, stays, RAIZ** (15 §1) | Low if rephrased |
+| L28 | **Public talks** (Space Week, BitConf, Climate Week) mentioning buying lots or returns | Advertising lots of an unapproved subdivision; public offering by "mass media" | Ord. 173 art. 42; RG CNV 1016/2024 (no mass media) | Copy checklist before each talk: no lots, no returns, no token price; show admin status of the subdivision; invite to the Gathering and the community, not to an investment | Medium |
+| L29 | **Third-party tokenisation platform** (Hadron, LandToken, others) for part of the round | A platform abroad doesn't make the token legal for AR residents; securities and PSAV rules still apply to the offer | Research §6 D.2–D.3 | Use only for pot 3 (land) via a CNV-route fideicomiso financiero, or for non-AR buyers; evaluation criteria in 15 §3 | Medium |
+| L30 | **River-adjacent strip** of Lote 7 (flood risk) | Possibly unbuildable; and **riverside rural land** can't be acquired by foreigners when converting to ownership | Ley 26.737 + Dto. 274/2012 art. 10 [^drs] | Keep that strip in conservation/commons (Z5) under easements; never offered as licences to foreigners for dwelling; Martín's GIS flood layers decide the line | Low |
+
+ for RAIZ v2 (transferable)
 
 | Option | How it'd work | Pros | Cons / 🧨 |
 |---|---|---|---|
@@ -83,3 +93,5 @@ The NS_platform glossary already uses UX words (Semillas, Pactos, Pase, Sumarte)
 - Logic: substance over form (CCyC art. 12); diode.
 
 [^call]: Private call Gus–Gabriel, 2026-10-02 (private transcript); sanitised in [[13 - Call 2026-10-02 (decisions and actions)]].
+[^team]: Core team monthly, 2026-10-05 (Fathom transcript, `../NS_platform/Documentation/transcripts/Octubre/Team meeting 05-10.md`); see [[14 - Team meeting 2026-10-05 (inputs and actions)]].
+[^drs]: `../NS_platform/Documentation/Investigacion — DRS, fideicomisos y tokenizacion (Lighthouse VRN) 2026-09-29.md` §3 A.5, §6.
