@@ -31,7 +31,7 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 | If you are… | Read, in this order | Time |
 |---|---|---|
 | **Whole team, before the 12 Oct meeting** | 15 (micro-investor offer) → 14 (meeting notes) → 09 §1 and §6 | 20 min |
-| **Gabriel (COO / legal)** | 13 (call) → 06 (legal friction map, L1–L23) → 01 (context) → 12 §3–4 (who can be offered what) → 05 (community licences) | 40 min |
+| **Gabriel (COO / legal)** | 13 (call) → 06 (legal friction map, L1–L38) → 16, 18, 17 → `prompt_legal.md` → 01 (context) → 12 §3–4 (who can be offered what) → 05 (community licences) | 40 min |
 | **Vagner (CFO)** | 13 → 12 (costs, use of funds) → 09 (investor value model) → `sim/RESULTS_value_model.md` → `sim/RESULTS.md` → 11 ($NETX v2 review) | 45 min |
 | **Gus** | 07 (open questions, answered and new) → 09 → 10 → 04 | — |
 | **New collaborator, non-crypto** | 08 (glossary) → this README → 03 (vision) "In one breath" sections only | 20 min |
@@ -59,6 +59,10 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 13 | **Call 2026-10-02 (decisions and actions)** | Sanitised decisions, divergences, action items |
 | 14 | **Team meeting 2026-10-05 (inputs and actions)** | Team inputs on tokenomics, micro-investors, masterplan; action items |
 | 15 | **Micro-investor offer (USD 2–5k tickets)** | What a small ticket can legally get: now / later / never-as-phrased; Founding Circle bundle; answers to the investor's six questions |
+| 16 | **Call 2026-10-12 (hybrid model, inputs and actions)** | Positions on selling some lots, facts, action items |
+| 17 | **Lighthouse Constitution and Rights of Nature (draft)** | What we take from OASA and the Rights of Nature; where each right is anchored; draft articles |
+| 18 | **Hybrid model (selling some lots): options and trade-offs** | Five meanings of "hybrid", trade-offs, guardrails, what to decide |
+| — | `prompt_legal.md` (Spanish) | **Legal deep-research prompt** for Gabriel's AI assistant: compliance audit, lawful room to manoeuvre, hybrid model, constitution, Franz's proposal |
 | sim | `hatch_sim.py`, `value_model_sim.py` + RESULTS files | Reproducible models (Python, stdlib only) |
 | sources | Lighthouse RTMM brief, BioPueblo KMZ | Inputs we can share |
 | private | Transcript, financial model, large/third-party files | **Git-ignored**: never pushed |
@@ -92,7 +96,9 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 ## 5. How we collaborate (Git + Obsidian)
 
 - This folder is both an **Obsidian vault** (open the folder as a vault; `[[links]]` work) and a **private Git repository**.
-- Branches: `main` (agreed content), `gustavo`, `gabriel`, `vagner` (personal working branches). Work on your branch, open a pull request to `main`, and discuss in the PR.
+- **Team repo:** `https://github.com/netxgen-2050/NS_Tokenomics`. Its `main` holds what we have agreed.
+- **To change anything:** work on your own branch, named after you (`gustavo`, `gabriel`, `vagner` exist; otherwise create e.g. `cambios_franz`), and open a pull request to `main`. We merge according to the agreements we reach, in the PR or in meetings.
+- Gus works in his own copy (`sepu85/NS_Tokenomics`) and brings changes in through pull requests from there.
 - `AGENTS.md` / `CLAUDE.md` tell your AI assistant (Claude, ChatGPT, Cursor…) how to work here: rules, source citations, privacy, branches. Point your assistant at them first.
 - `private/` is git-ignored: the call transcript, the financial model (Vagner's original stays with Vagner) and large third-party files (e.g. the Avedam Kezum deck) live only on Gus's machine.
 - `../NS_platform` (product and legal research) is a sibling, read-only source; it isn't part of this repo. Paths starting with `../NS_platform/` refer to it ❓ (decide whether to share it as a second repo).
@@ -103,7 +109,8 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 - ✅ Vision, MVP, legal map, community kits, glossary (v0.1, morning)
 - ✅ After the call: investor value model, governance options, review of $NETX v2, round inputs, call notes, RAIZ rename, sources everywhere (v0.2)
 - ✅ After the 2026-10-05 team meeting: micro-investor offer (15), team-meeting notes (14), legal items L26–L30, backlog section F (v0.3)
-- ⏭ Next: counsel pack (06 §3 + structure diagram), Vagner's bounded Lighthouse model, Council of Regeneration charter, one-page explainer for collaborators.
+- ✅ After the 2026-10-12 call: call notes (16), Constitution and Rights of Nature draft (17), hybrid options and trade-offs (18), legal items L31–L38, backlog section G, legal deep-research prompt (v0.4)
+- ⏭ Next: legal deep research (Gabriel, doc 19); decision on the hybrid before the surveyor brief; counsel pack (06 §3 + structure diagram), Vagner's bounded Lighthouse model, Council of Regeneration charter, one-page explainer for collaborators.
 
 ## Sources & logic used
 
