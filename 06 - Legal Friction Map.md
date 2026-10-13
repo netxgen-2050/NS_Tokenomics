@@ -63,7 +63,20 @@ The NS_platform glossary already uses UX words (Semillas, Pactos, Pase, Sumarte)
 | L29 | **Third-party tokenisation platform** (Hadron, LandToken, others) for part of the round | A platform abroad doesn't make the token legal for AR residents; securities and PSAV rules still apply to the offer | Research §6 D.2–D.3 | Use only for pot 3 (land) via a CNV-route fideicomiso financiero, or for non-AR buyers; evaluation criteria in 15 §3 | Medium |
 | L30 | **River-adjacent strip** of Lote 7 (flood risk) | Possibly unbuildable; and **riverside rural land** can't be acquired by foreigners when converting to ownership | Ley 26.737 + Dto. 274/2012 art. 10 [^drs] | Keep that strip in conservation/commons (Z5) under easements; never offered as licences to foreigners for dwelling; Martín's GIS flood layers decide the line | Low |
 
- for RAIZ v2 (transferable)
+### New after the 2026-10-12 call [^call12]
+
+| # | Vision element | 🧨 Challenge | Rule (verify) | 🏴‍☠️ Hack / path | Residual risk |
+|---|---|---|---|---|---|
+| L31 | **Selling some lots inside Lighthouse (7A)** to finance the start (hybrid H2 in [[18 - Hybrid model (selling some lots) - options and trade-offs]]) | No offer before approval; the trust holds a surface right, not ownership, so who can sell? Breaks design rule 1 as written | Ord. 173 arts. 41–46; CCyC 2114+ (superficie), 2073–2086 (conjuntos inmobiliarios) [verify] | Start with H0/H1 (lots in already approved barrios, sold by their owner); test H3/H4 for residents; decide H2 only with legal answers and numbers | High until decided |
+| L32 | **Commission to NetX for selling BioPueblo lots** through the platform | Real-estate brokerage usually needs a licensed broker; a % on sales also looks like platform intermediation | Provincial brokerage law [verify]; Ley 27.349 Tít. II | Referral or marketing-service agreement with BioPueblo or a licensed broker; fixed fee | Medium ❓ |
+| L33 | **Ticket money used as NetX runway** while the buyer gets stays and a later discount | Mixes pots (I7); if the buyer expects value later from NetX's work, it drifts toward an investment contract | Ley 26.831 art. 2; Ley 24.240 | Company money → SAFE; stays → prepaid service by whoever operates hospitality; commons → Pass. Sell as the Founding Circle bundle (15 §1) | Medium |
+| L34 | **NFT as the key to a house**, passed on by the holder; fungible tokens for days per year | Transferable = activo virtual; days per year = timeshare; resale at a gain = profit expectation | Ley 25.246 art. 4 bis; CCyC 2087–2102; Ley 26.831 art. 2 | Assignable **licence** with Guardian and community consent, recorded off-chain first; members only; resale at cost or with the surplus to the Commons Fund ❓ | Medium ❓ counsel |
+| L35 | **Rights of Nature in our constitution** ([[17 - Lighthouse Constitution and Rights of Nature (draft)]]) | Nature is not a legal subject we can rely on; a statute alone can be amended by whoever controls the entity | CCyC arts. 14, 240; Ley 25.675; CN art. 41 [verify] | Rewrite rights as **duties** in easements, DRS deed, trust contract, Guardian statute and licences; double key for amendments | Low–medium |
+| L36 | **"Lighthouse as its own jurisdiction"**: rules, sanctions, ending a licence for ecological breach | Private rules live inside public order; ending a licence where people live meets consumer, housing and due-process limits | Ley 24.240; CCyC [verify] | Graduated sanctions, mediation and arbitration clauses, step-in before termination | Medium |
+| L37 | **Protection "to infinity"** and the succession clause (land goes to a similar project if NetX fails) | The surface right lasts ≤70 y and the trust ≤30 y; the land belongs to a third party, who decides what happens at the end | CCyC arts. 1668, 2117 [verify] | Owner-granted perpetual easements; successor named in the DRS deed and the trust (fideicomisario); put it in the BioPueblo term sheet now | High if not agreed with the owner |
+| L38 | **Offshore vehicle owning the land** (TDF pattern: single-purpose company under a Swiss association) | Limits on foreign ownership of rural land; riverside land | Ley 26.737 + Dto. 274/2012 [verify] | Keep land rights in the Argentine fideicomiso; use the offshore entity only for the commons rail (§2) | High for land; see §2 for tokens |
+
+## 2. 🏴‍☠️ Offshore options for RAIZ v2 (transferable)
 
 | Option | How it'd work | Pros | Cons / 🧨 |
 |---|---|---|---|
@@ -95,3 +108,4 @@ The NS_platform glossary already uses UX words (Semillas, Pactos, Pase, Sumarte)
 [^call]: Private call Gus–Gabriel, 2026-10-02 (private transcript); sanitised in [[13 - Call 2026-10-02 (decisions and actions)]].
 [^team]: Core team monthly, 2026-10-05 (Fathom transcript, `../NS_platform/Documentation/transcripts/Octubre/Team meeting 05-10.md`); see [[14 - Team meeting 2026-10-05 (inputs and actions)]].
 [^drs]: `../NS_platform/Documentation/Investigacion — DRS, fideicomisos y tokenizacion (Lighthouse VRN) 2026-09-29.md` §3 A.5, §6.
+[^call12]: Call "Plataforma | Tokenomics y MicroFunding", 2026-10-12 (private Fathom transcript); see [[16 - Call 2026-10-12 (hybrid model, inputs and actions)]].
