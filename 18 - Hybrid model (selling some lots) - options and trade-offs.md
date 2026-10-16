@@ -20,7 +20,7 @@ Franz proposes selling a few lots to finance the start. Gus's worry is that a so
 | H0 | **Hybrid at BioPueblo scale** (already true) | BioPueblo sells its own lots in other barrios; Lighthouse (7A) is the commons | BioPueblo | No |
 | H1 | **Base camp next door** | 2–3 Chacras de Soluna lots bought by people close to the team, who build the first houses | BioPueblo → buyers | No |
 | H2 | **Sale zone inside 7A** | Lots in a bounded part of Lighthouse, under a gated-community regime with environmental easements (Franz's document) | Lighthouse | **Yes** |
-| H3 | **Real right without selling the land** | Units built on the surface right, held as independent property for the term of that right [verify] | Stays with the owner | No in substance; ❓ units could be mortgaged |
+| H3 | **Real right without selling the land** | Units built on the surface right, held as independent property for the term of that right [verify] | Stays with the owner | No in substance; 🧨 units **can** be mortgaged by default (CCyC 2120): needs a restriction in the DRS title (06 L40) |
 | H4 | **Long, assignable licences** | A use licence for a house or plot that the holder can pass on to another admitted member (Gus's "key") | Stays with the trust | No |
 
 ## 2. Trade-offs
@@ -28,7 +28,7 @@ Franz proposes selling a few lots to finance the start. Gus's worry is that a so
 | Criterion | H0 | H1 | H2 | H3 | H4 |
 |---|---|---|---|---|---|
 | Cash to NetX, speed | Commission only 🧨 brokerage rules (06 L32) | None directly; gives a visible base | Largest, but only after preliminary approval (3–4 months after filing [^t]) | Medium; after buildings exist | Medium; from Feb 2027 as a service |
-| Legal prerequisite | A lawful referral agreement | Soluna's subdivision is reported as approved [NC] | Subdivision of 7A approved; and the trust holds a surface right, so can it sell lots at all? 🧨 [verify] | Buildings + horizontal-property filing [verify] | Trust and Guardian constituted; licence template |
+| Legal prerequisite | A lawful referral agreement | Soluna's subdivision was reported as approved in the call; **not confirmed**, definitive approval appears still pending [NC] [^gv] | Subdivision of 7A approved; and 🧨 **the trust cannot sell land**: it holds a surface right, so only the owner can sell lots, or the right is first converted into ownership (CCyC 2118, 2120) [C]. Rural horizontal-property units must meet the economic-unit minimum unless the municipality approves a real-estate or tourist project (RN Dto. 1220/02 art. 112; Dto. 95/24 art. 8 c) [C] [^gv] | Buildings + approved plans + horizontal-property filing; the surface holder may do it without the owner's consent (CCyC 2120) [C] [^gv] | Trust and Guardian constituted; licence template |
 | Rights of the land enforceable? | Not ours to enforce | Only by Soluna's rules | Easements and regulation only; **no licence to end** | Regulation + reversion at term | Full (17 §3) |
 | One governance for the territory (Vagner's point [^t]) | n/a | n/a | Two regimes inside one barrio: owners and licensees | Mostly one | One |
 | Marketing and funnel (Gus's point [^t]) | Separate product, separate seller | Not marketed | Two products in one funnel; "regenerative commons" story diluted | One product, harder to explain | One product |
@@ -48,7 +48,7 @@ Listed so the choice is concrete, not as a recommendation:
 1. A **hard cap** on the saleable share of 7A and a fixed location, never the river strip (06 L30), drawn in the masterplan before the surveyor brief.
 2. **Easements registered before the first sale**, with the Constitution (17) as their content, and the Guardian as holder.
 3. Owners join the same **regulation and contribution to the Commons Fund** as licensees.
-4. A **right of first refusal** for the Guardian on resale [verify how long it can last].
+4. A **preference on resale**. A contractual right of first refusal over real estate lasts ≤5 y and is personal (CCyC 1165–1167); the lasting route is the consortium's preference in the horizontal-property regulation (art. 2085) [C] [^gv].
 5. **No ticket, pass or token carries a credit, priority or reservation toward those lots** before approval (06 L27, L31).
 6. Design rule 1 in `AGENTS.md` is amended in writing by the team; until then it stands.
 
@@ -60,14 +60,14 @@ Listed so the choice is concrete, not as a recommendation:
 | Founding Pass | Commons (never NetX runway, I7) | Feb 2027 ([[04 - MVP February 2027 (The Hatch)]]) |
 | "Founding Circle" bundle (SAFE + Pass) for USD 2–5k | Company + commons, two contracts | [[15 - Micro-investor offer (USD 2-5k tickets)]] |
 | Referral or marketing fee for BioPueblo lot sales (H0) | Company | 🧨 needs a lawful form (06 L32) |
-| Ticket credit redeemable against a lot in an **already approved** barrio sold by BioPueblo | Company / BioPueblo | ❓ a possible lawful version of Franz's discount idea; legal research block A |
+| Ticket credit redeemable against a lot in an **already approved** barrio sold by BioPueblo | Company / BioPueblo | ❓ a possible lawful version of Franz's discount idea; legal research block A. No BioPueblo barrio is confirmed to have definitive approval yet [^gv] |
 | Fideicomiso units | Land | After the trust exists |
 
 ## 6. Reading [criterio] and what to decide
 
 - **H0 and H1** fit our principles today. They give Franz most of what the call asked for in the short term: something to sell with a deed, and people living next to the land.
 - **H4**, and **H3** if it survives legal review, are the candidates to give residents something that feels like "mine" without selling land.
-- **H2** is the only irreversible option and the only one that changes rule 1. It needs three inputs first: the legal answers (blocks A and B of [[prompt_legal]]), Vagner's numbers with and without a sale zone, and BioPueblo's own plans from the term sheet.
+- **H2** is the only irreversible option and the only one that changes rule 1. It also needs the land owner, since the trust cannot sell land (06 L31). It needs three inputs first: the legal answers (blocks A and B of [[prompt_legal]]), Vagner's numbers with and without a sale zone, and BioPueblo's own plans from the term sheet.
 
 Decisions for the team (tracked in 07 §G): (1) confirm H0 + H1 now; (2) set a date for the H2 decision before the surveyor brief; (3) until then, no public or investor communication mentions lots in Lighthouse.
 
@@ -78,4 +78,5 @@ Decisions for the team (tracked in 07 §G): (1) confirm H0 + H1 now; (2) set a d
 - No new numbers are introduced; those belong in `sim/` and in Vagner's model.
 
 [^t]: Call 2026-10-12 (private Fathom transcript); see [[16 - Call 2026-10-12 (hybrid model, inputs and actions)]].
+[^gv]: Gabriel, inventory of his vault for the legal deep research, 2026-10-13 (internal working file, kept out of the repo; only its shareable parts are used here: law texts and general criteria). Not reviewed by a licensed lawyer.
 [^franz]: Franz, *"Arquitectura Legal, Financiera, Tokenómica y de Gobernanza para el Desarrollo Territorial Regenerativo: Barrio Lighthouse VRN (Biopueblo)"*, Gemini deep research, 2026-10-12, §C and §H.

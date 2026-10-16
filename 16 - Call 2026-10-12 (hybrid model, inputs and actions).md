@@ -28,8 +28,8 @@ Gus presented the assumptions the platform is being built on: the Lighthouse lan
 |---|---|---|
 | Micro-tickets | A connector can bring people with USD 3–10k. Idea: the ticket gives days of stay in the co-living, and if the holder later buys a lot, the ticket is deducted from the price | 🧨 see 06 L27, L33 |
 | Where ticket money goes | Described as cash flow "for us, to keep going" | 🧨 pot mixing if the ticket is sold as a commons pass (I7); company money belongs in the SAFE (06 L33) |
-| Chacras de Soluna | Its municipal subdivision process is already done, so its lots can move faster than 7A. Franz is negotiating 2–3 small riverside lots at cost for early buyers who would build the first houses, a base of operations to show larger investors | [NC] prices mentioned in the call are not recorded here |
-| 7A timeline | Masterplan → surveyor in the first half of November → municipality; preliminary approval about 3–4 months later. Only then could *boletos* be signed, not title | [S] Martín |
+| Chacras de Soluna | Said in the call to have its municipal subdivision process done, so its lots could move faster than 7A. Idea: a few lots for early buyers who would build the first houses, a base of operations to show larger investors | [NC] **Not confirmed**: definitive approval of the subdivision appears to be still pending [^gv]. Terms of any lot deal are a negotiation and are not recorded here |
+| 7A timeline | Masterplan → surveyor in the first half of November → municipality; preliminary approval about 3–4 months later. Only then could *boletos* be signed, not title | [S] Martín. Preliminary approval doesn't enable transfer and only enables acts the authority expressly authorises (Ord. 173 arts. 23, 43) [C]: boletos need that authorisation (06 L41) [^gv] |
 | Commission | If the platform helps sell BioPueblo lots, NetX would earn a commission; Gus sees this as an extra, outside the Lighthouse commons model | 🧨 brokerage rules (06 L32) |
 | Platform scope | Built for Lighthouse first, usable later by other BioPueblo barrios and elsewhere. Franz proposed a governance table among barrios in the term sheet | — |
 | Access as a key | Gus: a house in a community could carry an NFT that works as its key and can be passed on to someone else; fungible tokens could give days per year (TDF pattern) | 🧨 transferability and timeshare (06 L34, L7) |
@@ -42,7 +42,7 @@ Gus presented the assumptions the platform is being built on: the Lighthouse lan
 | Action | Owner | By |
 |---|---|---|
 | Term sheet with BioPueblo (hectares, macrolote, Soluna lots, governance table among barrios); bring back how the owners want to organise legally | Franz | this week |
-| Negotiate 2–3 small riverside Soluna lots for early buyers | Franz | — |
+| Explore early-buyer lots in Soluna (H1), subject to its approval status | Franz | — |
 | Territorial reading and first masterplan proposal to the team | Martín | Thu 15 Oct |
 | Share transcript and Gemini legal research with the group | Franz | done |
 | Raise the Swiss / OASA option with BioPueblo's owners; if there is interest, a call with Gus | Franz + Gus | — |
@@ -62,3 +62,4 @@ Gus presented the assumptions the platform is being built on: the Lighthouse lan
 - Personal remarks and third-party matters in the call are left out on purpose (privacy rule in `AGENTS.md`).
 
 [^t]: Call "Plataforma | Tokenomics y MicroFunding", 2026-10-12 (Fathom transcript, held privately; participants: Gus, Franz, Martín, Vagner).
+[^gv]: Gabriel, inventory of his vault for the legal deep research, 2026-10-13 (internal working file, kept out of the repo; only its shareable parts are used here: law texts and general criteria). Not reviewed by a licensed lawyer.

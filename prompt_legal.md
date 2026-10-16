@@ -97,8 +97,8 @@ Estas son **hipótesis legales que adoptamos por seguridad**. Poné a prueba cad
 - No se filtra por creencias o valores, solo por conducta y contribución (Ley 23.592).
 - Transferibilidad cero del pase en Argentina (lo atribuimos a "activo virtual", Ley 25.246 art. 4 bis, y al régimen PSAV).
 - Los créditos tienen que ser de emisor único, circuito cerrado, con vencimiento y sin rescate en dinero.
-- Límite de oferta privada de 35 adquirentes por emisión, 15 no calificados, sin medios masivos (lo atribuimos a la RG CNV 1016/2024 y modificatorias).
-- Un beneficiario extranjero hace tributar a todo el fideicomiso; los extranjeros no pueden adquirir tierra rural ribereña (LIG art. 73; Ley 26.737).
+- Límite de oferta privada de 35 adquirentes por emisión, 15 no calificados, sin medios masivos (RG CNV 1016/2024, modificada por la RG 1088/2025: además, hasta 50 potenciales inversores por reunión, 30 invitaciones a no calificados y reventa bloqueada 3 o 6 meses).
+- Un beneficiario extranjero hace tributar a todo el fideicomiso; los extranjeros no pueden adquirir tierra rural ribereña (LIG art. 73; Ley 26.737, **vigencia en disputa**: verificarla primero).
 
 Tratá todo número de norma de este repo y del documento de Franz como **no verificado hasta que hayas visto el texto primario**. En esta materia las resoluciones cambian rápido, y ambos documentos se escribieron en parte desde fuentes secundarias y memoria de modelos.
 
@@ -108,7 +108,7 @@ Recorré los bloques. En cada uno: primero establecé la norma desde fuentes pri
 
 **A. Territorio y jurisdicción (hacelo primero; de esto dependen otras respuestas)**
 - El documento de Franz dice que la tierra está sobre la **margen sur** del río Negro y plantea la duda de si el macrolote cae dentro del ejido de Mainqué (menciona El Cuy y General Roca). Toda nuestra pared de "sin lotes antes de la aprobación" descansa en una ordenanza de Mainqué. ¿Qué municipio y qué ordenanzas rigen el Macrolote 7? ¿Qué dicen exactamente los arts. 41–46 de la Ordenanza 173/2026, y alcanzan a ofertas hechas online o en el exterior?
-- **Chacras de Soluna** (barrio vecino de BioPueblo): según el equipo, su subdivisión ya tiene el trámite municipal hecho. ¿En qué estado exacto está, y qué se puede ofrecer, publicitar y firmar hoy sobre esos lotes?
+- **Chacras de Soluna** (barrio vecino de BioPueblo): según la llamada, su subdivisión ya tiene el trámite municipal hecho; la bóveda de Gabriel indica que la aprobación definitiva sigue pendiente. ¿En qué estado exacto está, y qué se puede ofrecer, publicitar y firmar hoy sobre esos lotes?
 - Capa provincial: subdivisión y mensura; cambio de uso de suelo rural y unidad económica agraria; Código de Aguas y DPA (permisos de perforación, línea de ribera); camino de sirga (CCyC art. 1974); evaluación de impacto ambiental (Franz cita la Ley M 3266); impuesto de sellos sobre fideicomisos, cesiones y contratos de membresía.
 - Ley 14.005 y Decreto 95/2024 [verify]: qué los dispara exactamente, y si alcanzan a un **crédito a cuenta de un lote futuro** o a una "prioridad" sin parcela identificada.
 - Reclamos indígenas o consuetudinarios sobre la parcela o su entorno (Convenio 169 OIT; CN art. 75 inc. 17; ley provincial).

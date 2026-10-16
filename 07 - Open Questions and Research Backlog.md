@@ -94,17 +94,36 @@ The call left the **hybrid model** open [^call12]. Franz then produced a legal a
 | G-6 | Commons Fund inside the real-estate fideicomiso and tickets issued by an operating company (Franz) vs Guardian | Guardian; three pots never mixed | Gabriel + Gus | G-1 |
 | G-7 | Transferable allowlisted token with platform-run resale from day one (Franz); NFT as a house key (Gus, long term) | Non-transferable in AR in v0 (06 L1, L26, L34) | Gabriel | G-1 |
 | G-8 | Votes weighted by ticket size (Franz: 1 vs 3) | One person, one voice | Gus | — |
-| G-9 | Which municipality has jurisdiction over Macrolote 7 (south bank)? Status of Soluna's approval? | Assumed Mainqué (Ord. 173/2026) ❓ | Gabriel + Martín | G-1 |
+| G-9 | Which municipality has jurisdiction over Macrolote 7 (south bank)? Status of Soluna's approval? | The BioPueblo parcel lies in the Mainqué municipal area (Ley 4318/2008, upheld by the Supreme Court in 2023), on the south bank [S]; **whether Macrolote 7 itself falls inside is unconfirmed** (no polygon yet). Soluna's definitive approval: not confirmed [^gv] | Gabriel + Martín | G-1 |
 | G-10 | Adopt [[17 - Lighthouse Constitution and Rights of Nature (draft)]] as the working draft; put the succession and no-sale clauses into the BioPueblo term sheet | Proposed | Gus + Franz + Gabriel | term sheet |
 | G-11 | Thresholds for the Constitution (ecological share, built share, water) from the masterplan | ❓ | Martín + Gus | after 15 Oct |
 | G-12 | Swiss vehicle / OASA as a side option (reopens A8 conditionally) | A8 "No" stands; exploratory conversation only | Gus + Franz | — |
 | G-13 | Commission for referring BioPueblo lot buyers: lawful form | ❓ (06 L32) | Gabriel | G-1 |
 
+## H. After Gabriel's vault inventory (2026-10-13) and the reply to Franz's research
+
+Gabriel answered the prompt with an inventory of what his vault already holds [^gv]. Its main recommendation: **design the base legal architecture with a law firm, in parallel with the tokenomics**, bottom-up (land and vehicles → instruments → product), because everything above changes when the base changes. The reply to Franz's Gemini research is [[20 - Land structure after Próspera and reply to Franz]].
+
+| # | Question | Current repo position | Owner | By |
+|---|---|---|---|---|
+| H-1 | Hire NetX's own law firm: a short technical-legal brief, two or three quotes, fixed fee per phase (1 base architecture, 2 instruments, 3 contracts and platform terms), Río Negro real estate + notary, capital markets/fintech, tax, international corporate | Recommended | Gabriel + Gus | first phase before the Feb 2027 Gathering |
+| H-2 | Status of Ley 26.737 (foreign ownership of rural land): verify before relying on 06 L8, L30, L38 | ❓ disputed | Gabriel | first |
+| H-3 | Any binding term sheet with BioPueblo / the land owner carries no sale and no mortgage of the land, real easements to a Guardian-owned parcel, succession and the Constitution annex (06 L39) | Proposed | Franz + Gabriel | before signature |
+| H-4 | Polygon of Macrolote 7 crossed with the Mainqué municipal area; ask the land owner whether a survey of the whole parcel already exists before briefing a new surveyor | ❓ | Martín | before the surveyor brief |
+| H-5 | Boletos after preliminary approval only with express municipal authorisation (06 L41) | Proposed | Gabriel | — |
+| H-6 | Mortgage restriction for units on the surface right (06 L40) | Proposed | Gabriel | term sheet |
+| H-7 | Send Franz's research to Gabriel (his vault's Drive connector couldn't open it) | — | Gus | now |
+| H-8 | Adopt from Franz's research into the masterplan and Constitution: camino de sirga, EIA (Ley M 3266) and water permits (DPA) in the roadmap, closed water cycle and phyto-treatment, native cover minimum per plot, platform decoupled from land ownership (SaaS) | Proposed (20 §2) | Martín + Gus | masterplan |
+| H-9 | Run the Gemini deep research (`prompt_gemini.md`) and share its audio summary with the team | Prompt ready | Gus | 19 Oct call |
+| H-10 | **Land structure for the BioPueblo term sheet** (land for equity, after Próspera): ownership to a purpose land trust with the Guardian as fideicomisario and golden share (optimistic), with fallbacks P1–P10 ([[20 - Land structure after Próspera and reply to Franz]]) | Proposed; the surface right becomes fallback P1 | Gus + Franz + Gabriel | before signature |
+
 ## Sources & logic used
 
 - Section G: call of 2026-10-12 and comparison of this repo with Franz's document, read 2026-10-13 [criterio].
+- Section H: Gabriel's vault inventory of 2026-10-13 (shareable parts only) and [[20 - Land structure after Próspera and reply to Franz]].
 - Team meeting 2026-10-05 (Fathom transcript in NS_platform) for section F.
 - Decisions: Gus's message of 2026-10-02 (answers A1–A8) and the private call Gus–Gabriel of the same day (B-items, action items).
 
 [^franz]: Franz, *"Arquitectura Legal, Financiera, Tokenómica y de Gobernanza para el Desarrollo Territorial Regenerativo: Barrio Lighthouse VRN (Biopueblo)"*, Gemini deep research after the 2026-10-12 call (Google Doc, read 2026-10-13).
 [^call12]: Call "Plataforma | Tokenomics y MicroFunding", 2026-10-12 (private Fathom transcript); see [[16 - Call 2026-10-12 (hybrid model, inputs and actions)]].
+[^gv]: Gabriel, inventory of his vault for the legal deep research, 2026-10-13 (internal working file, kept out of the repo; only its shareable parts are used here: law texts and general criteria). Not reviewed by a licensed lawyer.
