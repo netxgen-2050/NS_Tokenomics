@@ -1,6 +1,6 @@
 # NS_Tokenomics — full context pack
 
-Generated from `main` (built on top of commit `dd2c85e`) by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
+Generated from `main` (built on top of commit `141eb57`) by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
 
 **How to read this pack:** follow `AGENTS.md` (first file). The **current legal design is design B** (docs 22–29). Docs 01–21 are earlier work: read them as inputs and background, not as the current proposal. Nothing here is legal, tax or investment advice.
 
@@ -3557,6 +3557,34 @@ NetX Gen is **the company**: the designer, manager and platform. It is not the l
 - Assets under management needed to cover it with management fees only: 372k ÷ 1.5% ≈ **USD 25M**; at 1%, **USD 37M**.
 - Until the series reach that size, the SAFE pays for the team, and **design contracts plus development fees** bridge the gap. That is why the design contract with BioPueblo matters now: it is revenue that doesn't need any approval, trust or token.
 
+## 2b. What the burn is, and what the platform's own sales bring
+
+**The USD 31k a month** is the group burn in Vagner's financial model (sheet "Consolidated", summarised in doc 12 §1) [S]:
+
+| Item | USD / month |
+|---|---:|
+| Core team | ~12k |
+| Legal, regulatory, institutional | ~7k |
+| Operations | ~2k |
+| Other (not broken down in the repo ❓ Vagner) | ~10k |
+| **Total** | **~31k** |
+
+**Platform sales** (the Sumarte plans of lighthouse-platform; prices are mock-up sample data: Miembro USD 10/month or 100/year, Plan Tribu USD 60/month per tribe). Model: `sim/platform_revenue_sim.py` → `sim/RESULTS_platform_revenue.md`, deliberately not optimistic:
+
+| Scenario | Users at month 36 | Paying members | Tribes | Revenue / month at month 36 | % of burn |
+|---|---:|---:|---:|---:|---:|
+| Low | 1,200 | 20 | 6 | ~USD 540 | 1.7% |
+| Base (not optimistic) | 2,660 | 82 | 10 | ~USD 1,340 | 4.3% |
+| Good | 5,120 | 244 | 16 | ~USD 3,160 | 10% |
+
+- **At these prices, subscriptions don't capitalise NetX.** Even the good case covers about a tenth of the burn in year 3. The platform's value is elsewhere:
+  - it is the channel that brings members, investors and tribes;
+  - it runs governance (Fogón);
+  - it is the product we can **license to other projects** (B2B).
+- **The lever that changes the arithmetic is B2B** [criterio]: selling the platform and the kit to other regenerative projects and developers. At, say, USD 1,000 a month per node, covering the burn takes ~31 nodes. Another way: price the licence as a share of each node's development budget, not as a subscription.
+- **The Founding Pass is not NetX money.** USD 49k–171k in the same scenarios, but it goes to the commons (the Foundation). In the low case it doesn't reach the USD 75k minimum of the cohort.
+- **Congreso tickets** are sold on UnityHub by the event's organiser; they are not counted here.
+
 ## 3. Lots: why not now, and what to do instead
 
 | | Selling lots now | What we propose |
@@ -3583,6 +3611,7 @@ NetX Gen is **the company**: the designer, manager and platform. It is not the l
 [^regen]: Lighthouse regenerative design principles (Gus, 2026-10-15 and 2026-10-16), including the view of an external permaculture adviser: design the whole territory from water and soil before drawing lots; lots drawn without that lose value (no water, flooding, no shelter); a regional design for ~10,000 ha takes on the order of two years.
 
 - Round size, ticket and burn: [[12 - Round Inputs (costs and use of funds)]] §1–2; Founding Circle: [[15 - Micro-investor offer (USD 2-5k tickets)]].
+- Platform sales: lighthouse-platform `lib/sumarte/datos.ts` (sample prices); `sim/platform_revenue_sim.py` → `sim/RESULTS_platform_revenue.md` (illustrative, not optimistic).
 - Fees per series: `sim/series_waterfall_sim.py` → `sim/RESULTS_series_waterfall.md` (illustrative).
 - Law: Ord. 173/2026 (no sales or reservations before approval) [C]; broker licence rule ([[06 - Legal Friction Map]] L32) [verify].
 - Runway arithmetic and the lots argument: our judgement [criterio].
