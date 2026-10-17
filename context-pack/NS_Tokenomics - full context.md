@@ -1,6 +1,6 @@
 # NS_Tokenomics — full context pack
 
-Generated from branch `legal-lab` at commit `f48ae87` by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
+Generated from branch `legal-lab` at commit `bfce282` by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
 
 **How to read this pack:** follow `AGENTS.md` (first file). The **current legal design is design B** (docs 22–29). Docs 01–21 are earlier work: read them as inputs and background, not as the current proposal. Nothing here is legal, tax or investment advice.
 
@@ -150,6 +150,10 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 26 | **Impact on tokenomics (tasks)** | RAIZ vs Regeneration Units; how they link; which rules and docs would change (tasks in 07 §I) |
 | 27 | **Brief para el abogado (preguntas)** (Spanish) | 22 questions for an Argentine law firm |
 | 28 | **Tokenomics for design B (series, early money, investor journeys)** | Legal-by-design tokenomics for design B: what a series is, the capital stack and waterfall, the SAFU for early money, the Mother Series, two investor journeys (live here in 10 years; USD 1,000 in the wine), parameters to tune. Model: `sim/series_waterfall_sim.py` |
+| 29 | **Systems design pass for B** | Requirements, invariants J1–J10, feedback loops, hazards K1–K10, first Monte Carlo (`sim/series_montecarlo_sim.py`), who adjusts which parameter and how fast |
+| — | `Guía - usar este repo con tu IA.md` (Spanish) | **How the team uses this repo with Claude, ChatGPT or Gemini**: access, the one-file context pack, project instructions, starter prompts by role |
+| — | `context-pack/` | One-file snapshot of the repo for AI projects (`python3 scripts/build_context_pack.py` regenerates it) |
+| — | `assets/esquema-legal-B.png` | One-image diagram of design B for sharing (source: `assets/esquema-legal-B.html`) |
 | — | `prompt_gemini.md` (Spanish) | **Gemini Deep Research prompt**: capital ladder from the next company to a tokenised model, land kept off the market, stewardship of the 1,000 ha, fallbacks, answer to Franz (then an audio summary) |
 | — | `prompt_legal.md` (Spanish) | **Legal deep-research prompt** for Gabriel's AI assistant: compliance audit, lawful room to manoeuvre, hybrid model, constitution, Franz's proposal |
 | sim | `hatch_sim.py`, `value_model_sim.py` + RESULTS files | Reproducible models (Python, stdlib only) |
@@ -2258,6 +2262,8 @@ Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1,
 | I-9 | Choose the independent easement holder (an established Argentine conservation NGO) and ask whether it would hold perpetual easements and a 1 ha dominant parcel | ❓ open | Gus | Q1 2027 |
 | I-10 | H-14 (what the holding does): partly answered by doc 25 §1 (NetX = developer, manager and platform; fees and kit licences); write the one-page version for investors | In progress | Gus + Vagner | before the SAFE deck |
 | I-11 | Re-tune the parameters of doc 28 §7 (royalty, rent, caps, fees, exit multiples, vineyard and solar inputs, SAFU discount) and get the **missing home entry premium and ground rent**. Values to decide go to the Fogón's governance: [lighthouse-platform #94](https://github.com/netxgen-2050/lighthouse-platform/issues/94); measured data come from quotes | ❓ open | Gus + Vagner (+ Martín, Franz for housing) | next model pass |
+| I-12 | Systems pass, next round (doc 29 §5): waterfall with a preferred return so First-loss isn't a near-certain donation; Mother Series portfolio with correlations; liquidity-run test; then governance agents | ❓ open | Gus + Vagner | before the investor deck |
+| I-13 | **Company structure to start raising** (Monday 2026-10-19): (a) stop issuing from the Próspera LLC and open a new holding (Delaware C-corp is the standard home for SAFEs with international investors; Wyoming LLC or Uruguay are cheaper or regional; decide with counsel); (b) an Argentine SAS as the operating company that signs with the trusts (registered in Río Negro, near the project, or wherever counsel registers fastest); (c) start the Foundation in Río Negro now (IGPJ is slow) or pick a fiscal host; (d) Series 0 private trust to issue the SAFU | ❓ team decision + counsel | Gus + Vagner + Franz | Monday, then counsel |
 
 ## Sources & logic used
 
