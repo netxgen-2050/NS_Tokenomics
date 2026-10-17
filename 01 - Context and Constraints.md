@@ -19,7 +19,7 @@ We have a big, beautiful piece of land that we cannot yet legally sell in pieces
 |---|---|---|
 | Land | **Macrolote 7, ~969 ha** in **Mainqué, Río Negro**, part of BioPueblo's ~10,000 ha. Lot **7A** is NetX's. Soluna (Parcel 5, 110 ha, 50 chacras) is the first BioPueblo barrio, a sibling not our land | Investigación DRS §2; Producto v2 §2 |
 | Owner | Mother parcel 05-7-880580 (matrícula 05-22352) owned by **Lavima S.A.**; sale to BioPueblo in progress | Legal brief §0.a |
-| Proposed structure | Lavima grants a **derecho real de superficie (DRS)** per macrolote (≤70 y) to a **fideicomiso de desarrollo** (≤30 y) with adhering fiduciantes; **perpetual negative easements** in favour of a **guardian entity** as the ecological anchor | Investigación DRS §2, §5 |
+| Proposed structure (**under negotiation since 2026-10-16**: land for equity; ownership to a purpose trust is the optimistic case, see [[20 - Land structure after Próspera and reply to Franz]]) | Lavima grants a **derecho real de superficie (DRS)** per macrolote (≤70 y) to a **fideicomiso de desarrollo** (≤30 y) with adhering fiduciantes; **perpetual negative easements** in favour of a **guardian entity** as the ecological anchor | Investigación DRS §2, §5 |
 | Planning model | RTMM: ~1,000 residents, 10–12 intentional communities, >50% ecological/productive landscape, 180–250 ha food, shared metabolic infrastructure, three ledgers (cash / commons / ecological) | Lighthouse brief |
 | Hard question the brief leaves us | **"What finances the commons after land-sale/appreciation capture matures?"** (Challenge 5) | Lighthouse brief §10 |
 

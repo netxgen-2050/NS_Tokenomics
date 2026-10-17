@@ -57,13 +57,15 @@ Gus called this "fractal jurisdictions" [^t]: each layer is free inside the laye
 | Layer | Instrument | What it can do for the rights of the land | Strength | Check |
 |---|---|---|---|---|
 | 0 | Argentine, provincial and municipal law | Sets the outer limits; environmental law already limits property rights | Public law | CCyC arts. 14 and 240; Ley 25.675 [verify] |
-| 1 | **Easements** registered on the parcel, held by the Guardian | Negative duties that follow the land whoever holds it | Real right | Can they be perpetual? Do they need a dominant parcel? [verify] |
-| 2 | **DRS deed** and **fideicomiso contract** | Purpose clause; forbidden acts (sale, mortgage); who receives the assets at the end; Guardian consent for reserved matters | Contract + registered real right | DRS ≤ 70 y and trust ≤ 30 y: what carries the rights after that? 🧨 (06 L37) |
+| 1 | **Easements** registered on the parcel, held by the Guardian | Negative duties that follow the land whoever holds it | Real right | A **real** easement is presumed perpetual (CCyC 2165) but needs a dominant parcel, so the Guardian must own one; a personal easement for an entity lasts ≤50 y (2182). Granted by the land owner; registration needs a cadastral certificate (RN Ley 3483) [C] [^gv] |
+| 2 | **DRS deed** and **fideicomiso contract** | Purpose clause; forbidden acts (sale, mortgage); who receives the assets at the end; Guardian consent for reserved matters | Contract + registered real right | DRS ≤70 y to build, ≤50 y to forest; trust ≤30 y (CCyC 2117, 1668) [C]: what carries the rights after that? 🧨 (06 L37). A bare "no sale" clause is void in onerous acts (1972); resolutory conditions are capped at 10 y (1965) [C] [^gv] |
 | 3 | **Lighthouse Constitution** (§4) | The single text all others refer to | By incorporation into 1, 2, 4, 5 | — |
-| 4 | **Guardian statute** | Guardians of Nature seat, Council of Regeneration, double key for amendments, asset lock | Association / foundation law | DPPJ Río Negro [verify] |
+| 4 | **Guardian statute** | Guardians of Nature seat, Council of Regeneration, double key for amendments, asset lock | Association / foundation law | IGPJ Río Negro (Ley K 3827); minimum members per Res. IGPJ 461/03 [C] [^gv] |
 | 5 | **Community licence** and plug-in agreement ([[05 - Community Token Templates]]) | Conditional use: the licence lives while the principles are kept; graduated sanctions; step-in and termination | Contract | Enforceability of termination where people live 🧨 [verify] |
 | 6 | Community charters, household and space agreements | Local rules, stricter if they want | Contract / internal rules | — |
 | 7 | Platform rules and records | Makes compliance visible; flags | Evidence only (I8: the legal record wins) | Ley 25.326 |
+
+**Other anchors, and their limits** [C] [^gv]: the regulation of a *conjunto inmobiliario* (CCyC 2078, 2080, 2085, 2086) can protect ecological values, is transcribed into every deed, gives the consortium a preference on resale and allows sanctions for serious or repeated breaches; it can limit transfers but not prevent them. A **charge** (*cargo*, art. 356) in each title, with a penalty clause (art. 794), travels with the right, though a judge can reduce a disproportionate penalty. There is no private expropriation: on owned land the strongest sanctions are fines, suspension of community rights and the community's preference when someone sells. No Argentine trust with an enforceable ecological sanctions regulation has been found [NC].
 
 **Why licences matter here:** on licensed land we hold three remedies (repair, sanction, end of the licence). On a **sold lot** we keep only layer 1 and whatever regulation binds owners. That is the core of the trade-off in [[18 - Hybrid model (selling some lots) - options and trade-offs]].
 
@@ -87,6 +89,7 @@ Gus called this "fractal jurisdictions" [^t]: each layer is free inside the laye
 
 Notes on the draft:
 - Article 9 keeps us inside Ley 23.592: we ask people to **do** things (no biocides, repair what you harm), we don't ask them to **believe** things. OASA's devotional language fits a preamble that people may share, not an admission test [criterio].
+- Article 1: whoever holds a surface right may mortgage what is built on it by law (CCyC 2120). "Never mortgaged" has to be agreed in the DRS deed, and whether that pact binds third parties is [verify] (06 L40).
 - Article 11 is a wish until the land owner agrees: the fideicomiso holds a surface right from Lavima / BioPueblo, not ownership. What happens at the end of the surface right is theirs to grant 🧨 (06 L37).
 - Article 13: "cannot be amended" has to be mirrored in instruments that last (easements, the DRS deed). A statute alone can be changed by those who control the entity [verify].
 
@@ -94,7 +97,7 @@ Notes on the draft:
 
 1. Which numbers go into article 3, and per which zones? (Martín, Council)
 2. Who are the Guardians of Nature: people named by the Council, partner organisations, a rotating seat? (ties to 10)
-3. Can the Constitution be made an annex of the BioPueblo term sheet now, so the DRS deed carries it from day one? (Franz, Gabriel)
+3. Can the Constitution be made an annex of the BioPueblo term sheet now, so the DRS deed carries it from day one? (Franz, Gabriel; 06 L39)
 4. Legal anchoring of §3, layer by layer: block J of [[prompt_legal]].
 
 ## Sources & logic used
@@ -108,3 +111,4 @@ Notes on the draft:
 [^garn]: Global Alliance for the Rights of Nature, Universal Declaration of the Rights of Mother Earth: https://www.garn.org/universal-declaration-for-the-rights-of-mother-earth/ (adoption date and place confirmed on the page, 2026-10-13).
 [^rtmm]: `sources/NetX_Lighthouse_Regenerative_Territorial_Model_AI.md`, as summarised in [[01 - Context and Constraints]] §1.
 [^t]: Call 2026-10-12 (private Fathom transcript); see [[16 - Call 2026-10-12 (hybrid model, inputs and actions)]].
+[^gv]: Gabriel, inventory of his vault for the legal deep research, 2026-10-13 (internal working file, kept out of the repo; only its shareable parts are used here: law texts and general criteria). Not reviewed by a licensed lawyer.
