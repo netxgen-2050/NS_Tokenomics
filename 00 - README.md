@@ -13,6 +13,8 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 > **How do we fund the commons and the first communities on land that will never be sold, give each stakeholder (investors, workers, residents without capital, community founders, NetX, the land) a fair kind of return, and stay compliant?**
 
+> ⚖️ **Branch `legal-lab` (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
+
 ## 1. The answer in 60 seconds
 
 - **The land is never sold.** It sits in a fideicomiso holding a surface right (DRS) and is protected by perpetual ecological easements held by a Guardian. Communities receive **use licences**, never ownership.
@@ -64,6 +66,13 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 17 | **Lighthouse Constitution and Rights of Nature (draft)** | What we take from OASA and the Rights of Nature; where each right is anchored; draft articles |
 | 18 | **Hybrid model (selling some lots): options and trade-offs** | Five meanings of "hybrid", trade-offs, guardrails, what to decide |
 | 20 | **Land structure after Próspera and reply to Franz** | The regenerative purpose first; land for equity: optimistic structure, prepared fallbacks (P1–P10), point-by-point reply to Franz's research |
+| 21 | **Gemini deep research review (2026-10-17)** | What the Gemini reports confirm (mostly our own design echoed), add (land law back in force, timeshare, milestone vesting) and get wrong; the rural-or-urban question |
+| 22 | **Legal redesign — brief, hard law and first principles** | What the **law** forces vs what we **chose**; trust vs foundation; design principles for the redesign |
+| 23 | **Yield engines (where the money comes from)** | Ten engines that regenerate **and** produce cash (organic-matter hub with biochar, agrivoltaics, nursery, hospitality, housing…); which investor fits which |
+| 24 | **Legal structure options compared** | Six structures scored; why the foundation + trust program; what we keep from doc 20 |
+| 25 | **Legal design v0.1 (Land Foundation + Regeneration Trust Program)** | **The proposal**, with diagrams: entities, money waterfall, landowner deal, foreign capital, governance, phasing, risks |
+| 26 | **Impact on tokenomics (tasks)** | RAIZ vs Regeneration Units; how they link; which rules and docs would change (tasks in 07 §I) |
+| 27 | **Brief para el abogado (preguntas)** (Spanish) | 18 questions for an Argentine law firm |
 | — | `prompt_gemini.md` (Spanish) | **Gemini Deep Research prompt**: capital ladder from the next company to a tokenised model, land kept off the market, stewardship of the 1,000 ha, fallbacks, answer to Franz (then an audio summary) |
 | — | `prompt_legal.md` (Spanish) | **Legal deep-research prompt** for Gabriel's AI assistant: compliance audit, lawful room to manoeuvre, hybrid model, constitution, Franz's proposal |
 | sim | `hatch_sim.py`, `value_model_sim.py` + RESULTS files | Reproducible models (Python, stdlib only) |
@@ -101,7 +110,7 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 - This folder is both an **Obsidian vault** (open the folder as a vault; `[[links]]` work) and a **private Git repository**.
 - **Team repo:** `https://github.com/netxgen-2050/NS_Tokenomics`. Its `main` holds what we have agreed.
 - **To change anything:** work on your own branch, named after you (`gustavo`, `gabriel`, `vagner` exist; otherwise create e.g. `cambios_franz`), and open a pull request to `main`. We merge according to the agreements we reach, in the PR or in meetings.
-- Gus works in his own copy (`sepu85/NS_Tokenomics`) and brings changes in through pull requests from there.
+- Everyone works on branches of the team repo (`netxgen-2050/NS_Tokenomics`); the legal redesign lives on the branch `legal-lab`.
 - `AGENTS.md` / `CLAUDE.md` tell your AI assistant (Claude, ChatGPT, Cursor…) how to work here: rules, source citations, privacy, branches. Point your assistant at them first.
 - `private/` is git-ignored: the call transcript, the financial model (Vagner's original stays with Vagner) and large third-party files (e.g. the Avedam Kezum deck) live only on Gus's machine.
 - `../NS_platform` (product and legal research) is a sibling, read-only source; it isn't part of this repo. Paths starting with `../NS_platform/` refer to it ❓ (decide whether to share it as a second repo).

@@ -107,15 +107,36 @@ Gabriel answered the prompt with an inventory of what his vault already holds [^
 | # | Question | Current repo position | Owner | By |
 |---|---|---|---|---|
 | H-1 | Hire NetX's own law firm: a short technical-legal brief, two or three quotes, fixed fee per phase (1 base architecture, 2 instruments, 3 contracts and platform terms), Río Negro real estate + notary, capital markets/fintech, tax, international corporate | Recommended | Gabriel + Gus | first phase before the Feb 2027 Gathering |
-| H-2 | Status of Ley 26.737 (foreign ownership of rural land): verify before relying on 06 L8, L30, L38 | ❓ disputed | Gabriel | first |
+| H-2 | Status of Ley 26.737 (foreign ownership of rural land): verify before relying on 06 L8, L30, L38 | ✅ in force again (interim) since 2026-10-09, see [[21 - Gemini deep research review (2026-10-17)]] §3; ruling text still to read | Counsel | first |
 | H-3 | Any binding term sheet with BioPueblo / the land owner carries no sale and no mortgage of the land, real easements to a Guardian-owned parcel, succession and the Constitution annex (06 L39) | Proposed | Franz + Gabriel | before signature |
 | H-4 | Polygon of Macrolote 7 crossed with the Mainqué municipal area; ask the land owner whether a survey of the whole parcel already exists before briefing a new surveyor | ❓ | Martín | before the surveyor brief |
 | H-5 | Boletos after preliminary approval only with express municipal authorisation (06 L41) | Proposed | Gabriel | — |
 | H-6 | Mortgage restriction for units on the surface right (06 L40) | Proposed | Gabriel | term sheet |
 | H-7 | Send Franz's research to Gabriel (his vault's Drive connector couldn't open it) | — | Gus | now |
 | H-8 | Adopt from Franz's research into the masterplan and Constitution: camino de sirga, EIA (Ley M 3266) and water permits (DPA) in the roadmap, closed water cycle and phyto-treatment, native cover minimum per plot, platform decoupled from land ownership (SaaS) | Proposed (20 §2) | Martín + Gus | masterplan |
-| H-9 | Run the Gemini deep research (`prompt_gemini.md`) and share its audio summary with the team | Prompt ready | Gus | 19 Oct call |
+| H-9 | Run the Gemini deep research (`prompt_gemini.md`) and share its audio summary with the team | ✅ run 2026-10-17, reviewed in doc 21 | Gus | 19 Oct call |
 | H-10 | **Land structure for the BioPueblo term sheet** (land for equity, after Próspera): ownership to a purpose land trust with the Guardian as fideicomisario and golden share (optimistic), with fallbacks P1–P10 ([[20 - Land structure after Próspera and reply to Franz]]) | Proposed; the surface right becomes fallback P1 | Gus + Franz + Gabriel | before signature |
+| H-11 | **Is Macrolote 7 rural land in law** (outside Mainqué's urban ejido)? Does Ord. 173 approval change that? Is BioPueblo's owner foreign-controlled? Decides whether Ley 26.737 binds the structure | ❓ open; first question to counsel | Counsel + Franz | first |
+| H-12 | Gemini deep research results (2026-10-17): adopt milestone vesting in the term sheet, the sale zone outside the 1,000 ha (P6), the single rural unit fallback (P4), timeshare-safe passes (06 L42); reject the misalignments M1–M10 ([[21 - Gemini deep research review (2026-10-17)]]) | Proposed | Gus + team | 19 Oct call |
+| H-13 | **Foreign capital under Ley 26.737**: (1) no clause gives the holding control over the trust or the Guardian; (2) do foreign holders of income-only trust units count as indirect owners? (3) does a surface right or long licence to a foreign resident count as tenure? (4) remaining departmental quota (Registry certificate) ([[21 - Gemini deep research review (2026-10-17)]] §5b) | ❓ for counsel, with H-11 | Counsel | first |
+| H-14 | **What the holding does and how it earns**, in one page: revenue lines are scattered (09 §stakeholders, 15 FAQ, 03 I7) and doc 09's BioPueblo row and the README summary still describe the old deal (BioPueblo as trust beneficiary, trust holding only a DRS). Write it after land for equity (doc 20) and check it against Vagner's model | ❓ open | Gus + Vagner | before the SAFE deck |
+
+## I. Legal redesign (branch `legal-lab`, 2026-10-17): tasks it leaves for other structures
+
+Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1, H-2) move to Gus until a law firm is hired (I-2).
+
+| # | Task | Status | Owner | When |
+|---|---|---|---|---|
+| I-1 | Review [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]: keep, change or drop each piece | Proposed | Gus | this week |
+| I-2 | Hire an Argentine law firm (civil, trusts, capital markets, rural, tax) and send [[27 - Brief para el abogado (preguntas)]]; ask for a phased quote | ❓ open | Gus | first |
+| I-3 | Model the series waterfall in `sim/` (ground rent, royalty *r*, notes, first-loss, capped units, residual to the commons) for engines E1 (organic hub) and E2 (agrivoltaics) | ❓ open | Vagner | before the investor deck |
+| I-4 | Collect the first facts: is 7A rural land (H-11); feedstock survey of the valley's pruning and waste (E1); grid capacity near Mainqué (E2) | ❓ open | Franz + Martín | next 4 weeks |
+| I-5 | Landowner deal: take L1 + L4 (L2 as sweetener, L3 as fallback) from doc 25 §4 into the term sheet conversation; supersedes the direction of H-10 if adopted | Proposed | Franz + Gus | before signature |
+| I-6 | **Adapt the tokenomics** to the redesign, doc by doc, following [[26 - Impact on tokenomics (tasks)]]: 03 (RAIZ + Regeneration Units), 04 (who receives Pass money: Foundation or fiscal host), 09 (stakeholders; BioPueblo row), 12 (Series 0 in the round), 15 (micro-investor offer), 20 (superseded by 25?), README 60-second answer, `sim/value_model_sim.py` | ❓ open, after I-1 | Gus + Vagner + Juanpi | after counsel's first answer |
+| I-7 | Decide whether to amend design rules 1, 2, 3 in `AGENTS.md` as proposed in doc 26 §4 (land never encumbered but improvements may be; capped yield in Units; RAIZ yield in kind) | ❓ team decision | Team | after I-1 |
+| I-8 | One token or two: RAIZ membership + Regeneration Units (recommended) vs a single regulated token | ❓ open | Gus + Juanpi | after I-2 |
+| I-9 | Choose the independent easement holder (an established Argentine conservation NGO) and ask whether it would hold perpetual easements and a 1 ha dominant parcel | ❓ open | Gus | Q1 2027 |
+| I-10 | H-14 (what the holding does): partly answered by doc 25 §1 (NetX = developer, manager and platform; fees and kit licences); write the one-page version for investors | In progress | Gus + Vagner | before the SAFE deck |
 
 ## Sources & logic used
 

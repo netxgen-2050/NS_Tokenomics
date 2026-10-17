@@ -36,7 +36,7 @@ The structure below is good only if it makes these rules **hard to break**, by a
 | NetX Gen is an LLC in Próspera; the round and the equity move to a new holding (Uruguay, Wyoming, Delaware or Argentina) | Direction agreed 2026-10-02; jurisdiction open (07 B-2, F-7) |
 | The land structure was assumed to be a surface right (DRS ≤70 y) to a trust, per the 2026-09-29 research | **A working hypothesis from a verbal account**, not a signed document [^gv] |
 | Franz's research assumes the trust owns the land | Possible too; it is what we propose as optimistic case |
-| Ley 26.737 (foreign ownership of rural land): in force or not | **Disputed**; verify first (07 H-2) |
+| Ley 26.737 (foreign ownership of rural land): in force or not | **In force again on an interim basis since 2026-10-09** (Supreme Court); P2 is now the base case if 7A is rural land (07 H-11, [[21 - Gemini deep research review (2026-10-17)]]) |
 | Municipal approval of any subdivision of 7A | Pending; no lots, priority or reservation before (Ord. 173) |
 | A trust lasts at most 30 years (CCyC 1668) | [C] [^gv] |
 
