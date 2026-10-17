@@ -1,0 +1,136 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0;background:#FBF8F1;}
+  svg{display:block;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
+  .t{fill:#1F2A24}
+  .s{fill:#4A564F}
+  .w{fill:#FFFFFF}
+</style></head>
+<body>
+<svg width="1080" height="1350" viewBox="0 0 1080 1350" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#3B4A42"/>
+    </marker>
+    <marker id="g" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2F7D4F"/>
+    </marker>
+  </defs>
+  <rect width="1080" height="1350" fill="#FBF8F1"/>
+
+  <!-- title -->
+  <text x="540" y="66" text-anchor="middle" font-size="38" font-weight="700" class="t">Lighthouse · nuevo esqueleto legal (propuesta B)</text>
+  <text x="540" y="108" text-anchor="middle" font-size="24" class="s">La tierra es del procomún para siempre. La plata construye proyectos encima.</text>
+
+  <!-- landowner -->
+  <rect x="50" y="150" width="330" height="110" rx="16" fill="#E9DFC9" stroke="#B9A57A" stroke-width="2"/>
+  <text x="215" y="192" text-anchor="middle" font-size="24" font-weight="700" class="t">Dueño de la tierra</text>
+  <text x="215" y="224" text-anchor="middle" font-size="20" class="s">BioPueblo · lote 7A (~1.000 ha)</text>
+  <text x="215" y="248" text-anchor="middle" font-size="18" class="s">y quizás 4 lotes más</text>
+
+  <!-- NGO -->
+  <rect x="700" y="150" width="330" height="110" rx="16" fill="#D7ECE6" stroke="#5E9C8C" stroke-width="2"/>
+  <text x="865" y="192" text-anchor="middle" font-size="24" font-weight="700" class="t">ONG de conservación</text>
+  <text x="865" y="224" text-anchor="middle" font-size="20" class="s">servidumbres ecológicas</text>
+  <text x="865" y="248" text-anchor="middle" font-size="20" class="s">perpetuas sobre todo el campo</text>
+
+  <!-- foundation -->
+  <rect x="250" y="330" width="580" height="190" rx="20" fill="#2F7D4F"/>
+  <text x="540" y="374" text-anchor="middle" font-size="28" font-weight="700" class="w">FUNDACIÓN TIERRA LIGHTHOUSE</text>
+  <text x="540" y="404" text-anchor="middle" font-size="19" class="w">(argentina · perpetua)</text>
+  <text x="540" y="440" text-anchor="middle" font-size="21" class="w">dueña de la tierra para siempre: no vende ni hipoteca</text>
+  <text x="540" y="472" text-anchor="middle" font-size="21" class="w">Fondo Común → agua, suelo, vivero, monitoreo</text>
+  <text x="540" y="504" text-anchor="middle" font-size="19" class="w">Consejo de Regeneración · Voz de la Tierra</text>
+
+  <!-- RAIZ -->
+  <rect x="870" y="355" width="180" height="140" rx="14" fill="#F3E3B5" stroke="#C9A54A" stroke-width="2"/>
+  <text x="960" y="392" text-anchor="middle" font-size="22" font-weight="700" class="t">RAIZ</text>
+  <text x="960" y="420" text-anchor="middle" font-size="17" class="s">membresía</text>
+  <text x="960" y="444" text-anchor="middle" font-size="17" class="s">del procomún:</text>
+  <text x="960" y="468" text-anchor="middle" font-size="17" class="s">estadías, vino,</text>
+  <text x="960" y="490" text-anchor="middle" font-size="17" class="s">cursos, voz</text>
+  <line x1="870" y1="425" x2="834" y2="425" stroke="#3B4A42" stroke-width="2.5" marker-end="url(#a)"/>
+
+  <!-- arrows to foundation -->
+  <line x1="215" y1="262" x2="360" y2="326" stroke="#3B4A42" stroke-width="3" marker-end="url(#a)"/>
+  <text x="140" y="320" font-size="19" font-weight="700" class="t">aporta la tierra</text>
+  <line x1="865" y1="262" x2="720" y2="326" stroke="#3B4A42" stroke-width="3" marker-end="url(#a)"/>
+  <text x="855" y="318" font-size="19" font-weight="700" class="t">la protege</text>
+
+  <!-- NetX -->
+  <rect x="40" y="590" width="230" height="150" rx="16" fill="#E4DDF0" stroke="#8A78B5" stroke-width="2"/>
+  <text x="155" y="630" text-anchor="middle" font-size="24" font-weight="700" class="t">NetX Gen</text>
+  <text x="155" y="662" text-anchor="middle" font-size="18" class="s">nueva holding</text>
+  <text x="155" y="686" text-anchor="middle" font-size="18" class="s">gestor + plataforma</text>
+  <text x="155" y="710" text-anchor="middle" font-size="18" class="s">cobra comisiones</text>
+  <text x="155" y="732" text-anchor="middle" font-size="16" class="s">SAFE: su propio capital</text>
+  <!-- golden share -->
+  <line x1="262" y1="522" x2="226" y2="586" stroke="#3B4A42" stroke-width="2.5" stroke-dasharray="7,6" marker-end="url(#a)"/>
+  <text x="252" y="566" font-size="17" class="t">acción de oro</text>
+  <!-- landowner equity -->
+  <path d="M90,262 Q40,430 90,586" fill="none" stroke="#3B4A42" stroke-width="2.5" stroke-dasharray="7,6" marker-end="url(#a)"/>
+  <text x="18" y="430" font-size="17" class="t" transform="rotate(-90 18 430)">recibe acciones</text>
+  <!-- NetX manages -->
+  <line x1="272" y1="700" x2="336" y2="700" stroke="#3B4A42" stroke-width="2.5" marker-end="url(#a)"/>
+  <text x="274" y="688" font-size="14" class="t">gestiona</text>
+
+  <!-- program -->
+  <rect x="340" y="590" width="700" height="330" rx="20" fill="#F1E7D3" stroke="#B9A57A" stroke-width="2"/>
+  <text x="690" y="628" text-anchor="middle" font-size="25" font-weight="700" class="t">PROGRAMA DE FIDEICOMISOS · una serie por proyecto</text>
+  <text x="690" y="656" text-anchor="middle" font-size="18" class="s">cada serie tiene su caja, su proyecto y sus inversores</text>
+  <g font-size="18" text-anchor="middle">
+    <rect x="365" y="676" width="210" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="470" y="706" class="t">Hectárea piloto,</text><text x="470" y="730" class="t">vivero, cursos</text>
+    <rect x="590" y="676" width="210" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="695" y="706" class="t">Compost + biochar</text><text x="695" y="730" class="t">con la poda del valle</text>
+    <rect x="815" y="676" width="200" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="915" y="706" class="t">Energía solar</text><text x="915" y="730" class="t">agrovoltaica</text>
+    <rect x="365" y="760" width="210" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="470" y="790" class="t">Viñedo</text><text x="470" y="814" class="t">y frutales</text>
+    <rect x="590" y="760" width="210" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="695" y="790" class="t">Hospitalidad</text><text x="695" y="814" class="t">ecoturismo</text>
+    <rect x="815" y="760" width="200" height="70" rx="12" fill="#FFFFFF" stroke="#C9B48A"/>
+    <text x="915" y="790" class="t">Viviendas</text><text x="915" y="814" class="t">(con aprobación)</text>
+  </g>
+  <rect x="365" y="846" width="650" height="56" rx="12" fill="#E9DFC9" stroke="#B9A57A"/>
+  <text x="690" y="881" text-anchor="middle" font-size="19" class="t"><tspan font-weight="700">Serie Madre:</tspan> un poco de todo · tickets chicos · luego tokens</text>
+
+  <!-- foundation <-> program -->
+  <line x1="470" y1="522" x2="470" y2="586" stroke="#3B4A42" stroke-width="3" marker-end="url(#a)"/>
+  <text x="300" y="560" font-size="17" font-weight="700" class="t" text-anchor="start"> </text>
+  <text x="482" y="550" font-size="17" font-weight="700" class="t">derechos de superficie por zona</text>
+  <text x="482" y="572" font-size="16" class="s">(la tierra no se vende)</text>
+  <line x1="860" y1="586" x2="760" y2="524" stroke="#2F7D4F" stroke-width="3.5" marker-end="url(#g)"/>
+  <text x="868" y="540" font-size="17" font-weight="700" fill="#2F7D4F">canon + regalía</text>
+  <text x="868" y="561" font-size="16" fill="#2F7D4F">(antes que inversores)</text><text x="868" y="582" font-size="16" fill="#2F7D4F">+ lo que supera el tope</text>
+
+  <!-- communities -->
+  <rect x="40" y="1000" width="250" height="140" rx="16" fill="#F7DCCB" stroke="#C98B66" stroke-width="2"/>
+  <text x="165" y="1040" text-anchor="middle" font-size="24" font-weight="700" class="t">Comunidades</text>
+  <text x="165" y="1072" text-anchor="middle" font-size="18" class="s">clusters de ~16 familias</text>
+  <text x="165" y="1096" text-anchor="middle" font-size="16" class="s">casas en derecho de superficie</text>
+  <text x="165" y="1120" text-anchor="middle" font-size="18" class="s">1 persona = 1 voto</text>
+  <path d="M340,900 Q240,920 190,996" fill="none" stroke="#3B4A42" stroke-width="2.5" marker-end="url(#a)"/><text x="196" y="940" font-size="16" class="t">casas</text>
+
+  <!-- investors -->
+  <rect x="340" y="990" width="700" height="170" rx="20" fill="#DCE5EE" stroke="#6F8BA8" stroke-width="2"/>
+  <text x="690" y="1028" text-anchor="middle" font-size="25" font-weight="700" class="t">INVERSORES (argentinos y extranjeros)</text>
+  <text x="690" y="1064" text-anchor="middle" font-size="20" class="t">Bonos verdes (cupón fijo) · Unidades con rendimiento con tope</text>
+  <text x="690" y="1094" text-anchor="middle" font-size="20" class="t">· Capital catalítico (absorbe pérdidas primero)</text>
+  <text x="690" y="1134" text-anchor="middle" font-size="19" class="s"><tspan font-weight="700">Hoy:</tspan> SAFU (acuerdo por unidades futuras) → Serie Madre → tokens regulados</text>
+  <line x1="600" y1="988" x2="600" y2="924" stroke="#3B4A42" stroke-width="3" marker-end="url(#a)"/>
+  <text x="520" y="962" font-size="17" font-weight="700" class="t">invierten</text>
+  <line x1="780" y1="924" x2="780" y2="988" stroke="#3B4A42" stroke-width="3" marker-end="url(#a)"/>
+  <text x="792" y="962" font-size="17" font-weight="700" class="t">rendimiento (con tope)</text>
+
+  <!-- excedente -->
+
+
+  <!-- footer -->
+  <rect x="40" y="1190" width="1000" height="120" rx="16" fill="#FFFFFF" stroke="#D8CFBC"/>
+  <text x="540" y="1228" text-anchor="middle" font-size="20" class="t">Inversores extranjeros: financian proyectos, no son dueños de tierra (Ley de Tierras).</text>
+  <text x="540" y="1258" text-anchor="middle" font-size="20" class="t">La regeneración paga primero; el rendimiento sale de lo que la tierra produce.</text>
+  <text x="540" y="1292" text-anchor="middle" font-size="16" class="s">Propuesta v0.1 para revisar con un abogado · no es asesoramiento legal ni oferta de inversión · NetX Gen, 17-10-2026</text>
+</svg>
+</body></html>
