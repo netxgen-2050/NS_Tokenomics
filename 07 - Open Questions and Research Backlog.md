@@ -137,7 +137,7 @@ Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1,
 | I-8 | One token or two: RAIZ membership + Regeneration Units (recommended) vs a single regulated token | ❓ open | Gus + Juanpi | after I-2 |
 | I-9 | Choose the independent easement holder (an established Argentine conservation NGO) and ask whether it would hold perpetual easements and a 1 ha dominant parcel | ❓ open | Gus | Q1 2027 |
 | I-10 | H-14 (what the holding does): partly answered by doc 25 §1 (NetX = developer, manager and platform; fees and kit licences); write the one-page version for investors | In progress | Gus + Vagner | before the SAFE deck |
-| I-11 | Re-tune the parameters of doc 28 §7 (royalty, rent, caps, fees, exit multiples, vineyard and solar inputs, SAFU discount) and get the **missing home entry premium and ground rent** | ❓ open | Gus + Vagner (+ Martín, Franz for housing) | next model pass |
+| I-11 | Re-tune the parameters of doc 28 §7 (royalty, rent, caps, fees, exit multiples, vineyard and solar inputs, SAFU discount) and get the **missing home entry premium and ground rent**. Values to decide go to the Fogón's governance: [lighthouse-platform #94](https://github.com/netxgen-2050/lighthouse-platform/issues/94); measured data come from quotes | ❓ open | Gus + Vagner (+ Martín, Franz for housing) | next model pass |
 
 ## Sources & logic used
 

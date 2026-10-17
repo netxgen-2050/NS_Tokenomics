@@ -185,6 +185,8 @@ Agrivoltaic series, for comparison: USD 1,000 in Units returns ~USD 2,800 over 2
 | Mother Series net return | 3 / 6 / 9% (scenarios) | Vagner |
 | Home entry premium and yearly rent | **missing** | Martín + Franz (after approval) |
 
+How these get decided: the **values** (royalty, rent, caps, residual split, fees, SAFU discount, housing prices) go to the Fogón's governance once it is designed ([lighthouse-platform #94](https://github.com/netxgen-2050/lighthouse-platform/issues/94)); the **measured data** (yields, prices, costs) come from quotes and experts, not votes.
+
 ## 8. Legal questions this adds (for [[27 - Brief para el abogado (preguntas)]])
 
 1. Can a private trust (Series 0) issue a **SAFU** convertible into units of a later financial-trust series? Through a crowdfunding platform (Ley 27.349)?
