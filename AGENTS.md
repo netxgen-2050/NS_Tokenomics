@@ -15,7 +15,7 @@ The branch `legal-lab` **reopens the whole legal structure** from the goal: rege
 - **Hard law binds; our earlier choices don't.** Doc 22 §2 separates them. Rules 1–3 and 6 below are previous choices under review; rules 4 and 5 are law (Ord. 173/2026, Ley 23.592).
 - When a proposal breaks one of the rules below, **say so explicitly** and add the follow-up to `07` section I. Don't silently rewrite older docs.
 - **Yield is allowed** as a design goal ("obtain a yield" is a permaculture principle), on instruments that can legally carry it, naming the law that allows it. Rule 3 still applies to RAIZ as a membership until the team decides otherwise (doc 26).
-- **Other structures (tokenomics, Founding Pass, investor model, sim) are not rewritten in this branch**: doc 26 lists what each would need, and `07` section I holds the tasks.
+- **Tokenomics is legal by design**: every legal solution we analyse gets **its own tokenomics** (doc 28 is the one for design B, with its model in `sim/series_waterfall_sim.py`). The older tokenomics docs (03, 04, 09, 12, 15, 20 and `sim/value_model_sim.py`) are not edited here: they are inputs, and adapting or retiring them is listed in doc 26 and `07` section I.
 - Read earlier docs as **inputs to re-check**, not as conclusions: they mix law, preferences and unverified readings.
 - When a proposal has several interacting entities, **draw it** (Mermaid + plain text).
 

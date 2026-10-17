@@ -72,7 +72,8 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 24 | **Legal structure options compared** | Six structures scored; why the foundation + trust program; what we keep from doc 20 |
 | 25 | **Legal design v0.1 (Land Foundation + Regeneration Trust Program)** | **The proposal**, with diagrams: entities, money waterfall, landowner deal, foreign capital, governance, phasing, risks |
 | 26 | **Impact on tokenomics (tasks)** | RAIZ vs Regeneration Units; how they link; which rules and docs would change (tasks in 07 §I) |
-| 27 | **Brief para el abogado (preguntas)** (Spanish) | 18 questions for an Argentine law firm |
+| 27 | **Brief para el abogado (preguntas)** (Spanish) | 22 questions for an Argentine law firm |
+| 28 | **Tokenomics for design B (series, early money, investor journeys)** | Legal-by-design tokenomics for design B: what a series is, the capital stack and waterfall, the SAFU for early money, the Mother Series, two investor journeys (live here in 10 years; USD 1,000 in the wine), parameters to tune. Model: `sim/series_waterfall_sim.py` |
 | — | `prompt_gemini.md` (Spanish) | **Gemini Deep Research prompt**: capital ladder from the next company to a tokenised model, land kept off the market, stewardship of the 1,000 ha, fallbacks, answer to Franz (then an audio summary) |
 | — | `prompt_legal.md` (Spanish) | **Legal deep-research prompt** for Gabriel's AI assistant: compliance audit, lawful room to manoeuvre, hybrid model, constitution, Franz's proposal |
 | sim | `hatch_sim.py`, `value_model_sim.py` + RESULTS files | Reproducible models (Python, stdlib only) |

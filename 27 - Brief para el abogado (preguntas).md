@@ -69,6 +69,12 @@ NetX Gen (gestor) ──► PROGRAMA DE FIDEICOMISOS (series: piloto, compost/bi
 ### E. La protección ecológica
 18. ¿Puede una ONG de conservación ser dueña de una parcela dominante de ~1 ha dentro del lote y tener servidumbres reales perpetuas (arts. 2162–2165) sobre todo el resto? ¿Qué exige el Registro de la Propiedad de Río Negro? ¿Se puede sumar una reserva natural privada (Ley M 2669) sobre la ribera?
 
+### F. El dinero temprano y los rendimientos en especie
+19. ¿Puede un fideicomiso privado (la serie 0) emitir un **acuerdo de unidades futuras** (tipo SAFE) convertible en certificados de una serie posterior con oferta pública? ¿Se puede colocar a través de una plataforma de financiamiento colectivo (Ley 27.349)?
+20. ¿Puede un fideicomiso pagar distribuciones **en especie** (vino, estadías)? ¿Cómo tributa?
+21. Una vez aprobado el loteo, ¿se pueden aceptar certificados como **medio de pago** del derecho de superficie de una vivienda, en igualdad de condiciones con cualquiera, sin que eso cuente como reserva o prioridad prohibida antes de la aprobación?
+22. ¿Puede una "serie madre" del programa tener certificados de las demás series?
+
 ## 3. Qué le pedimos
 
 - Una opinión breve por pregunta: funciona / funciona con cambios / no funciona, y por qué.

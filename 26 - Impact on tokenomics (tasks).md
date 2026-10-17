@@ -8,6 +8,8 @@ status: v0.1 — what the proposed design changes in RAIZ, the pots and the repo
 
 Back to [[00 - README]] · Legal redesign: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]] · Design: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]
 
+> **Update 2026-10-17:** tokenomics is now **legal by design**: each legal solution gets its own tokenomics. The one for design B is [[28 - Tokenomics for design B (series, early money, investor journeys)]]. This page stays as the list of what changes in the **older** tokenomics docs.
+
 ## 🌱 In one breath
 
 Yield and the commons can work together if they live in **two different instruments that talk to each other**:
