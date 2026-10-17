@@ -13,7 +13,7 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 > **How do we fund the commons and the first communities on land that will never be sold, give each stakeholder (investors, workers, residents without capital, community founders, NetX, the land) a fair kind of return, and stay compliant?**
 
-> ⚖️ **Branch `legal-lab` (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
+> ⚖️ **Legal redesign (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
 
 ## 1. The answer in 60 seconds
 
@@ -116,7 +116,7 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 - This folder is both an **Obsidian vault** (open the folder as a vault; `[[links]]` work) and a **private Git repository**.
 - **Team repo:** `https://github.com/netxgen-2050/NS_Tokenomics`. Its `main` holds what we have agreed.
 - **To change anything:** work on your own branch, named after you (`gustavo`, `gabriel`, `vagner` exist; otherwise create e.g. `cambios_franz`), and open a pull request to `main`. We merge according to the agreements we reach, in the PR or in meetings.
-- Everyone works on branches of the team repo (`netxgen-2050/NS_Tokenomics`); the legal redesign lives on the branch `legal-lab`.
+- Everyone works on branches of the team repo (`netxgen-2050/NS_Tokenomics`); `main` holds the legal redesign since 2026-10-17; the earlier `main` is kept in the branch `archive`.
 - `AGENTS.md` / `CLAUDE.md` tell your AI assistant (Claude, ChatGPT, Cursor…) how to work here: rules, source citations, privacy, branches. Point your assistant at them first.
 - `private/` is git-ignored: the call transcript, the financial model (Vagner's original stays with Vagner) and large third-party files (e.g. the Avedam Kezum deck) live only on Gus's machine.
 - `../NS_platform` (product and legal research) is a sibling, read-only source; it isn't part of this repo. Paths starting with `../NS_platform/` refer to it ❓ (decide whether to share it as a second repo).

@@ -8,9 +8,9 @@ Token and capital design for the **Lighthouse** (~1,000 ha, Macrolote 7, Mainqu�
 
 Team: Gus (design), Vagner (CFO, financial model), Franz (BioPueblo relationship, investor pipeline), Martín (masterplan), Juanpi (tokenisation platforms). Working language: **English** (Spanish quotes from Argentine sources are fine). Gabriel (COO, legal) left the team on 2026-10-17: there is no in-house legal lead, so every legal point that changes the design is [verify] until an external law firm reviews it.
 
-## Legal redesign (branch `legal-lab`, since 2026-10-17)
+## Legal redesign (since 2026-10-17)
 
-The branch `legal-lab` **reopens the whole legal structure** from the goal: regenerate the land at scale with enough capital, the land and part of every flow ending in a commons, and a real yield for investors. Docs 22–27 hold the redesign; its centre is [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]].
+This repo **reopens the whole legal structure** from the goal: regenerate the land at scale with enough capital, the land and part of every flow ending in a commons, and a real yield for investors. Docs 22–27 hold the redesign; its centre is [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]].
 
 - **Hard law binds; our earlier choices don't.** Doc 22 §2 separates them. Rules 1–3 and 6 below are previous choices under review; rules 4 and 5 are law (Ord. 173/2026, Ley 23.592).
 - When a proposal breaks one of the rules below, **say so explicitly** and add the follow-up to `07` section I. Don't silently rewrite older docs.
@@ -19,7 +19,7 @@ The branch `legal-lab` **reopens the whole legal structure** from the goal: rege
 - Read earlier docs as **inputs to re-check**, not as conclusions: they mix law, preferences and unverified readings.
 - When a proposal has several interacting entities, **draw it** (Mermaid + plain text).
 
-## Design rules until now (don't propose things that break them without saying so; under review in `legal-lab`)
+## Design rules until now (don't propose things that break them without saying so; under review in the legal redesign)
 
 1. **The diode**: no token, fund, community or investor instrument may encumber, collateralise or sell the land. Rights flow up the layers; recourse and debt never flow down. (A bounded sale zone inside Lighthouse is under discussion since 2026-10-12, see doc 18; until the team amends this rule in writing, it stands.)
 2. **Three pots, never mixed**: company (SAFE), commons (RAIZ / Guardian), land (fideicomiso units). Commons money is never NetX revenue.

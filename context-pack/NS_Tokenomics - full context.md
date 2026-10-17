@@ -1,6 +1,6 @@
 # NS_Tokenomics — full context pack
 
-Generated from branch `legal-lab` at commit `68e1ec5` by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
+Generated from `main` (built on top of commit `dd2c85e`) by `scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.
 
 **How to read this pack:** follow `AGENTS.md` (first file). The **current legal design is design B** (docs 22–29). Docs 01–21 are earlier work: read them as inputs and background, not as the current proposal. Nothing here is legal, tax or investment advice.
 
@@ -18,9 +18,9 @@ Token and capital design for the **Lighthouse** (~1,000 ha, Macrolote 7, Mainqu�
 
 Team: Gus (design), Vagner (CFO, financial model), Franz (BioPueblo relationship, investor pipeline), Martín (masterplan), Juanpi (tokenisation platforms). Working language: **English** (Spanish quotes from Argentine sources are fine). Gabriel (COO, legal) left the team on 2026-10-17: there is no in-house legal lead, so every legal point that changes the design is [verify] until an external law firm reviews it.
 
-## Legal redesign (branch `legal-lab`, since 2026-10-17)
+## Legal redesign (since 2026-10-17)
 
-The branch `legal-lab` **reopens the whole legal structure** from the goal: regenerate the land at scale with enough capital, the land and part of every flow ending in a commons, and a real yield for investors. Docs 22–27 hold the redesign; its centre is [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]].
+This repo **reopens the whole legal structure** from the goal: regenerate the land at scale with enough capital, the land and part of every flow ending in a commons, and a real yield for investors. Docs 22–27 hold the redesign; its centre is [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]].
 
 - **Hard law binds; our earlier choices don't.** Doc 22 §2 separates them. Rules 1–3 and 6 below are previous choices under review; rules 4 and 5 are law (Ord. 173/2026, Ley 23.592).
 - When a proposal breaks one of the rules below, **say so explicitly** and add the follow-up to `07` section I. Don't silently rewrite older docs.
@@ -29,7 +29,7 @@ The branch `legal-lab` **reopens the whole legal structure** from the goal: rege
 - Read earlier docs as **inputs to re-check**, not as conclusions: they mix law, preferences and unverified readings.
 - When a proposal has several interacting entities, **draw it** (Mermaid + plain text).
 
-## Design rules until now (don't propose things that break them without saying so; under review in `legal-lab`)
+## Design rules until now (don't propose things that break them without saying so; under review in the legal redesign)
 
 1. **The diode**: no token, fund, community or investor instrument may encumber, collateralise or sell the land. Rights flow up the layers; recourse and debt never flow down. (A bounded sale zone inside Lighthouse is under discussion since 2026-10-12, see doc 18; until the team amends this rule in writing, it stands.)
 2. **Three pots, never mixed**: company (SAFE), commons (RAIZ / Guardian), land (fideicomiso units). Commons money is never NetX revenue.
@@ -89,7 +89,7 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 > **How do we fund the commons and the first communities on land that will never be sold, give each stakeholder (investors, workers, residents without capital, community founders, NetX, the land) a fair kind of return, and stay compliant?**
 
-> ⚖️ **Branch `legal-lab` (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
+> ⚖️ **Legal redesign (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
 
 ## 1. The answer in 60 seconds
 
@@ -192,7 +192,7 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 - This folder is both an **Obsidian vault** (open the folder as a vault; `[[links]]` work) and a **private Git repository**.
 - **Team repo:** `https://github.com/netxgen-2050/NS_Tokenomics`. Its `main` holds what we have agreed.
 - **To change anything:** work on your own branch, named after you (`gustavo`, `gabriel`, `vagner` exist; otherwise create e.g. `cambios_franz`), and open a pull request to `main`. We merge according to the agreements we reach, in the PR or in meetings.
-- Everyone works on branches of the team repo (`netxgen-2050/NS_Tokenomics`); the legal redesign lives on the branch `legal-lab`.
+- Everyone works on branches of the team repo (`netxgen-2050/NS_Tokenomics`); `main` holds the legal redesign since 2026-10-17; the earlier `main` is kept in the branch `archive`.
 - `AGENTS.md` / `CLAUDE.md` tell your AI assistant (Claude, ChatGPT, Cursor…) how to work here: rules, source citations, privacy, branches. Point your assistant at them first.
 - `private/` is git-ignored: the call transcript, the financial model (Vagner's original stays with Vagner) and large third-party files (e.g. the Avedam Kezum deck) live only on Gus's machine.
 - `../NS_platform` (product and legal research) is a sibling, read-only source; it isn't part of this repo. Paths starting with `../NS_platform/` refer to it ❓ (decide whether to share it as a second repo).
@@ -2246,7 +2246,7 @@ Gabriel answered the prompt with an inventory of what his vault already holds [^
 | H-13 | **Foreign capital under Ley 26.737**: (1) no clause gives the holding control over the trust or the Guardian; (2) do foreign holders of income-only trust units count as indirect owners? (3) does a surface right or long licence to a foreign resident count as tenure? (4) remaining departmental quota (Registry certificate) ([[21 - Gemini deep research review (2026-10-17)]] §5b) | ❓ for counsel, with H-11 | Counsel | first |
 | H-14 | **What the holding does and how it earns**, in one page: revenue lines are scattered (09 §stakeholders, 15 FAQ, 03 I7) and doc 09's BioPueblo row and the README summary still describe the old deal (BioPueblo as trust beneficiary, trust holding only a DRS). Write it after land for equity (doc 20) and check it against Vagner's model | ❓ open | Gus + Vagner | before the SAFE deck |
 
-## I. Legal redesign (branch `legal-lab`, 2026-10-17): tasks it leaves for other structures
+## I. Legal redesign (2026-10-17): tasks it leaves for other structures
 
 Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1, H-2) move to Gus until a law firm is hired (I-2).
 

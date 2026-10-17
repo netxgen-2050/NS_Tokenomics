@@ -121,7 +121,7 @@ Gabriel answered the prompt with an inventory of what his vault already holds [^
 | H-13 | **Foreign capital under Ley 26.737**: (1) no clause gives the holding control over the trust or the Guardian; (2) do foreign holders of income-only trust units count as indirect owners? (3) does a surface right or long licence to a foreign resident count as tenure? (4) remaining departmental quota (Registry certificate) ([[21 - Gemini deep research review (2026-10-17)]] §5b) | ❓ for counsel, with H-11 | Counsel | first |
 | H-14 | **What the holding does and how it earns**, in one page: revenue lines are scattered (09 §stakeholders, 15 FAQ, 03 I7) and doc 09's BioPueblo row and the README summary still describe the old deal (BioPueblo as trust beneficiary, trust holding only a DRS). Write it after land for equity (doc 20) and check it against Vagner's model | ❓ open | Gus + Vagner | before the SAFE deck |
 
-## I. Legal redesign (branch `legal-lab`, 2026-10-17): tasks it leaves for other structures
+## I. Legal redesign (2026-10-17): tasks it leaves for other structures
 
 Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1, H-2) move to Gus until a law firm is hired (I-2).
 

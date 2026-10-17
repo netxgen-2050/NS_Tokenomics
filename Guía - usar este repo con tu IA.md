@@ -8,18 +8,18 @@ audience: todo el equipo de NetX Gen
 
 ## 🌱 En un respiro
 
-Este repo es la memoria del diseño de capital, tokenomics y estructura legal de Lighthouse. Lo podés cargar en tu IA y hacerle preguntas desde tu rol. **Trabajamos en la rama `legal-lab`**, que tiene el diseño nuevo. La forma más fácil: subí **un solo archivo** (el "paquete de contexto") a un proyecto de ChatGPT, Claude o Gemini, pegá las instrucciones de abajo y empezá a preguntar.
+Este repo es la memoria del diseño de capital, tokenomics y estructura legal de Lighthouse. Lo podés cargar en tu IA y hacerle preguntas desde tu rol. La rama **`main`** tiene el diseño nuevo (el anterior quedó guardado en la rama `archive`). La forma más fácil: subí **un solo archivo** (el "paquete de contexto") a un proyecto de ChatGPT, Claude o Gemini, pegá las instrucciones de abajo y empezá a preguntar.
 
 ## 1. Acceso
 
 - El repo es **privado**: `github.com/netxgen-2050/NS_Tokenomics`. Si no lo ves, pedile acceso a Gus.
-- Usá siempre la rama **`legal-lab`** (no `main`): https://github.com/netxgen-2050/NS_Tokenomics/tree/legal-lab
+- Usá la rama **`main`**: https://github.com/netxgen-2050/NS_Tokenomics
 
 ## 2. Tres formas de cargarlo
 
 ### A. La más fácil: un archivo (ChatGPT, Claude, Gemini)
 
-1. Descargá el paquete de contexto: https://github.com/netxgen-2050/NS_Tokenomics/blob/legal-lab/context-pack/NS_Tokenomics%20-%20full%20context.md (botón de descarga ⬇ arriba a la derecha del archivo).
+1. Descargá el paquete de contexto: https://github.com/netxgen-2050/NS_Tokenomics/blob/main/context-pack/NS_Tokenomics%20-%20full%20context.md (botón de descarga ⬇ arriba a la derecha del archivo).
 2. Creá un proyecto:
    - **ChatGPT:** barra lateral → *Proyectos* → *Nuevo proyecto* → *Agregar archivos*.
    - **Claude (claude.ai):** *Projects* → *Create project* → *Add content* → subir el archivo.
@@ -34,7 +34,6 @@ El paquete es una foto del repo: cuando Gus avise que hay cambios, volvé a desc
 ```
 git clone https://github.com/netxgen-2050/NS_Tokenomics.git
 cd NS_Tokenomics
-git checkout legal-lab
 ```
 
 Claude Code lee `CLAUDE.md` y Codex lee `AGENTS.md` solos: ya saben las reglas del repo. Para regenerar el paquete de contexto: `python3 scripts/build_context_pack.py`.
@@ -46,7 +45,7 @@ Abrí la carpeta clonada como vault de Obsidian. Los `[[enlaces]]` y los diagram
 ## 3. Instrucciones del proyecto (copiar y pegar)
 
 ```
-Sos un asistente del equipo de NetX Gen para el proyecto Lighthouse (~1.000 ha, Mainqué, Río Negro, Argentina). El archivo adjunto es el repo NS_Tokenomics (rama legal-lab). Reglas:
+Sos un asistente del equipo de NetX Gen para el proyecto Lighthouse (~1.000 ha, Mainqué, Río Negro, Argentina). El archivo adjunto es el repo NS_Tokenomics (rama main). Reglas:
 1. Seguí las instrucciones de AGENTS.md (el primer archivo del paquete).
 2. El diseño legal ACTUAL es el diseño B (docs 22 a 29): una fundación argentina es dueña de la tierra para siempre; un programa de fideicomisos por series financia proyectos productivos y regenerativos sobre derechos de superficie, con rendimiento con tope; una ONG independiente tiene servidumbres ecológicas perpetuas. Los docs 01 a 21 son trabajo anterior: usalos como contexto, no como la propuesta vigente.
 3. Citá siempre el documento y la sección de donde sacás algo (por ejemplo "doc 25 §4"). Si algo no está en el repo, decilo; no lo inventes.
@@ -91,4 +90,4 @@ Sos un asistente del equipo de NetX Gen para el proyecto Lighthouse (~1.000 ha, 
 - **Lo que diga la IA es un borrador**, no un dictamen. Lo legal lo decide un abogado; los números, el modelo de Vagner.
 - **Para devolver lo que aprendiste:**
   - **Si es corto:** mandáselo a Gus.
-  - **Si es un cambio:** creá una rama desde `legal-lab` con tu nombre (`cambios_franz`, `cambios_vagner`…) y abrí un pull request **hacia `legal-lab`**.
+  - **Si es un cambio:** creá una rama desde `main` con tu nombre (`cambios_franz`, `cambios_vagner`…) y abrí un pull request **hacia `main`**.

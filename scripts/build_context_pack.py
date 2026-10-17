@@ -44,7 +44,7 @@ def main():
     os.makedirs(OUT_DIR, exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as out:
         out.write("# NS_Tokenomics — full context pack\n\n")
-        out.write(f"Generated from branch `{branch()}` at commit `{commit()}` by "
+        out.write(f"Generated from `main` (built on top of commit `{commit()}`) by "
                   "`scripts/build_context_pack.py`. Each file below starts with a `=== FILE:` line.\n\n")
         out.write("**How to read this pack:** follow `AGENTS.md` (first file). The **current legal "
                   "design is design B** (docs 22–29). Docs 01–21 are earlier work: read them as inputs "
