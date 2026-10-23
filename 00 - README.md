@@ -13,6 +13,8 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 > **How do we fund the commons and the first communities on land that will never be sold, give each stakeholder (investors, workers, residents without capital, community founders, NetX, the land) a fair kind of return, and stay compliant?**
 
+> 🔴 **2026-10-23: the February 2027 Gathering ("The Hatch", doc 04) was cancelled.** Docs that assume it as the genesis event are read with that in mind; what to re-anchor is task I-15 in [[07 - Open Questions and Research Backlog]].
+
 > ⚖️ **Legal redesign (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
 
 ## 1. The answer in 60 seconds

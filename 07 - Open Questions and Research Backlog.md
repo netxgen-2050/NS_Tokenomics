@@ -16,7 +16,7 @@ Back to [[00 - README]]
 | A1 | One brand with separable rights (pass now, tradable later)? | ✅ **Yes** | Everywhere |
 | A2 | Name of the mother token | ✅ **RAIZ** | Everywhere |
 | A3 | Who is the land-trust body? | ✅ **A fideicomiso** holds the land rights for Lote 7; a Guardian entity holds easements and the Commons Fund (to confirm with counsel whether the Guardian can be the fideicomiso's fideicomisario) | 01, 03, 06 |
-| A4 | Off-chain vs attestations | ✅ Gus delegated → off-chain for money/credits/votes; optional non-transferable Genesis attestation. Plain explanation in [[04 - MVP February 2027 (The Hatch)]] §6 | 04 |
+| A4 | Off-chain vs attestations | ✅ Gus delegated → off-chain for money/credits/votes; optional non-transferable Genesis attestation. Plain explanation in [[04 - MVP February 2027 (The Hatch)]] §6. **Update 2026-10-23:** after the web3 consult, **EAS (option B of 04 §6) is the leading candidate for the attestation layer** (presence, vouches, "we met"), off-chain first. Two points are open: the contradiction with lighthouse-platform ADR-009 ("Semillas soulbound, Dec-2026 to Feb-2027"), and the Semillas format, pending a comparison with Collabberry. See J-1 and J-2. **Update 2026-10-23 (later the same day):** Gus chose Semillas as EAS attestations, adjustable by peer evaluation (J-2). Once ADR-012 is accepted, that resolves the ADR-009 contradiction. Money, credits and votes stay off-chain as before | 04 |
 | A5 | Voice rule | ✅ Combine primitives (membership per holon, RAIZ holding, presence, sweat, trust graph, roles). Options in [[10 - Governance Primitives (options)]]; config A for Feb, B by end 2027 | 10 |
 | A6 | Credit generosity | 30%, falling per cohort (no change requested) | 04, sim |
 | A7 | NetX fee on the Commons side | ✅ "Go as proposed": fixed, disclosed platform fee only. Explanation in [[04 - MVP February 2027 (The Hatch)]] §3 | 04 |
@@ -141,9 +141,33 @@ Gabriel left the team on 2026-10-17: open items owned by him (B-2, C3, F-7, H-1,
 | I-12 | Systems pass, next round (doc 29 §5): waterfall with a preferred return so First-loss isn't a near-certain donation; Mother Series portfolio with correlations; liquidity-run test; then governance agents | ❓ open | Gus + Vagner | before the investor deck |
 | I-13 | **Company structure to start raising** (Monday 2026-10-19): (a) stop issuing from the Próspera LLC and open a new holding (Delaware C-corp is the standard home for SAFEs with international investors; Wyoming LLC or Uruguay are cheaper or regional; decide with counsel); (b) an Argentine SAS as the operating company that signs with the trusts (registered in Río Negro, near the project, or wherever counsel registers fastest); (c) start the Foundation in Río Negro now (IGPJ is slow) or pick a fiscal host; (d) Series 0 private trust to issue the SAFU | ❓ team decision + counsel | Gus + Vagner + Franz | Monday, then counsel |
 | I-14 | **NetX's first revenue without approvals**: take a paid regional-design proposal (water, soil, masterplan; pilot hectare and first neighbourhood first) to BioPueblo's owners, with the permaculture partner; channel lot-sales pressure into 'design first, BioPueblo sells later, each sale funds the commons' ([[30 - How NetX Gen gets capitalised (money in, by stage)]]) | Proposed | Franz + Gus | Monday, then BioPueblo |
+| I-15 | **The February 2027 Gathering was cancelled (2026-10-23, announced in the UnityHub call).** Doc 04 ("The Hatch") and `sim/hatch_sim.py` assume it as the genesis event: first Founding Pass sales, Round 0 live, Genesis Presence. Doc 04 is not edited here; decide (a) whether the Founding Pass / Hatch is re-anchored to a series of smaller community events (`../NS_platform/Documentation/20 - Estrategia de eventos de comunidad (post Congreso).md`), and when; (b) Genesis Presence = host-confirmed presence at those events, as an attestation (lighthouse-platform ADR-012); (c) re-run the cohort model with a slower, spread-out sales curve instead of a single event peak; (d) re-check the cash runway (~Mar 2027, doc 01 §6) without the event's revenue and visibility | ❓ open | Gus + Vagner | next model pass |
+
+## J. After the web3 consult (2026-10-23)
+
+Source: private call between Gus and an external web3 developer, 2026-10-23, and Gus's follow-up decisions the same day. Platform-side summary: `../NS_platform/Documentation/reuniones/2026-10-23 - Consultoría web3 (filtrado plataforma).md`.
+
+| # | Item | Status | Owner | When |
+|---|---|---|---|---|
+| J-1 | **Attestation layer = EAS** (Ethereum Attestation Service), off-chain first, for presence, vouches, "we met" and published Fogón results. It updates A4; no personal data on-chain (Ley 25.326) | 🟡 leading candidate | Gus | lighthouse-platform ADR-012 |
+| J-2 | **Semillas format: EAS attestation vs soulbound token vs the Collabberry model.** lighthouse-platform ADR-009 says "soulbound tokens, Dec-2026 to Feb-2027", which contradicts A4 (off-chain). Semillas are inspired by Collabberry, so study it first (learn, don't copy). **Decided by Gus on 2026-10-23, pending acceptance of lighthouse-platform ADR-012:**
+- Semillas are EAS attestations.
+- Each round issues a base attestation (pact, hours, HOUR_REF_USD, period, pact version), plus an adjustment attestation that references it (`refUID`) and applies `f_eval` (0.8–1.2) when peer evaluation closes.
+- Corrections revoke and reissue.
+- Our database is the source of truth.
+- The signer is NetX's server key or a community multisig.
+- This replaces ADR-009's "soulbound" on this point. | ✅ decided (ADR pending) | Gus | before the first Semilla is issued |
+| J-3 | **Choose the EVM chain**: Ethereum mainnet (Gus's preference, testnet first) vs an L2 (much cheaper, the consultant's advice) vs Celo or Base (04 §6) | ❓ open | Gus + Juanpi | with ADR-012 |
+| J-4 | **Superfluid** (membership paid per second instead of per month). It conflicts with rule "money never passes through the platform", which is itself under discussion (J-5) | 💡 later | Gus | after J-5 |
+| J-5 | **Drop the rule "money never passes through the platform"?** Gus thinks it should go (2026-10-23). If dropped, the questions are payment processor, UIF, crowdfunding (CNV) and PSAV status if tokens move [verify] | ❓ under discussion; **sent to counsel on 2026-10-23** (question 23 in [[27 - Brief para el abogado (preguntas)]]). The rule stands until it's decided in writing | Gus + counsel | before any real payment |
+| J-6 | **Reciprocal collusion** in validations and peer evaluations (A validates B, B validates A, both get paid without working): new hazard K11 and invariant J11 in [[29 - Systems design pass for B (requirements, invariants, hazards, simulation)]] | ✅ defenses adopted on 2026-10-23 (29 K11); parameters still to calibrate by simulation | Gus | with J-2 |
+| J-7 | **Fractal / holocratic governance** (circles → tribe → commons + council of tribe representatives, Celo-style): added to [[10 - Governance Primitives (options)]] §7 | 🟡 proposed | Gus | with the Fogón redesign |
+| J-9 | **Which mechanism for which decision type.** Formal Consensus with AI facilitation for decisions and proposals; quadratic voting for distributing resources, prioritising and curating (Gus, 2026-10-23: QV is **not** demoted); conviction voting for slow parameters (29 §6). Define the mapping per decision type and per layer (circle, tribe, commons, council), plus the "voice with context" criteria. See [[10 - Governance Primitives (options)]] §7.1 | ❓ open, to detail later | Gus | with the Fogón redesign |
+| J-8 | The consultant's comment that **USD 500k "is only the first step"** for ~1,000 ha of desert regeneration: check [[30 - How NetX Gen gets capitalised (money in, by stage)]] against the full regeneration capex | ❓ open | Vagner + Gus | next model pass |
 
 ## Sources & logic used
 
+- Section J: private call Gus – external web3 developer, 2026-10-23, and Gus's decisions the same day [criterio].
 - Section G: call of 2026-10-12 and comparison of this repo with Franz's document, read 2026-10-13 [criterio].
 - Section H: Gabriel's vault inventory of 2026-10-13 (shareable parts only) and [[20 - Land structure after Próspera and reply to Franz]].
 - Team meeting 2026-10-05 (Fathom transcript in NS_platform) for section F.

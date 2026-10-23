@@ -9,6 +9,8 @@ sources: ../NS_platform/Documentation (00, 03, 10, 11, 13, 16, Desarrollo/02-03,
 
 Back to [[00 - README]]
 
+> 🔴 **Update 2026-10-23:** the **February 2027 Gathering was cancelled** (announced by Gus in the UnityHub call). The "hard date" below no longer exists; the go-to-market becomes a series of community events (`../NS_platform/Documentation/20 - Estrategia de eventos de comunidad (post Congreso).md`). What it changes for the tokenomics is task I-15 in [[07 - Open Questions and Research Backlog]].
+
 ## 🌱 In one breath
 
 We have a big, beautiful piece of land that we cannot yet legally sell in pieces, a legal research that says "money goes to a trustee, never through the platform, and no tradable tokens", and a hard date (February 2027 Gathering at BioPueblo). The tokenomics has to create value **inside** those walls now and be **ready to grow** when the walls move.
@@ -57,7 +59,7 @@ The tokenomics is, in large part, our answer to that last question.
 | Date | Event |
 |---|---|
 | Oct 2026 – Jan 2027 | 4 monthly product iterations (doc 14) |
-| **Feb 2027** | **Gathering/Congress at BioPueblo**: genesis event, first sales of the Pass, 7A preliminary approval hoped for |
+| **Feb 2027** | ~~**Gathering/Congress at BioPueblo**: genesis event, first sales of the Pass~~ 🔴 cancelled on 2026-10-23 (see I-15); 7A preliminary approval still hoped for |
 | 2nd third of 2027 | Definitive approval (escrituración) per BioPueblo |
 | **31-12-2027** | CNV tokenization sandbox ends (may be extended or replaced) |
 

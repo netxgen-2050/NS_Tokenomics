@@ -46,6 +46,7 @@ They replace I1–I8 of doc 03 for this design.
 | J8 | **Arm's length**: transfers between series, NetX and related parties at audited market prices; NAV and exit values set by an independent valuer | Trust deeds; audit |
 | J9 | **Ecological floor**: if a zone's Ledger C indicators degrade for 2 periods, new capital for that zone pauses | Voice of the Land flag + Council |
 | J10 | **Legal mirror**: if the ledger and the legal record differ, the legal record wins | Reconciliation |
+| J11 | **No self-dealing validation** (added 2026-10-23): no contribution, pact or KPI counts as validated, and nothing is paid or issued on it, if its only validators are people the contributor validated in the same period. Reciprocal validation alone is never enough | Platform rules for peer evaluation; sample audits (K11) ❓ |
 
 ## 3. Stocks, flows and feedback loops (Meadows)
 
@@ -85,6 +86,17 @@ flowchart LR
 | K8 | Growth faster than water | R1 outruns B1 | Capital released by Ledger C gates (J9); Fibonacci pacing |
 | K9 | Conflicts of interest | NetX or BioPueblo on both sides of a deal | Disclosure, recusal, independent members |
 | K10 | Concentration in one engine | A single series fails and drags the Mother Series | J7 limit; diversify across engines with uncorrelated risks (wine vs power vs biochar) |
+| K11 | **Reciprocal collusion** (added 2026-10-23) [^web3] | A validates B and B validates A (or a small ring does the same), so pacts, hours or KPIs are confirmed without the work being done, and Semillas or money follow | **Adopted by Gus on 2026-10-23** [criterio]; the parameters will be calibrated by simulation:
+- (a) no self-rating;
+- (b) only people who actually worked together in the period (same pact or circle) rate each other;
+- (c) at least 3 raters before `f_eval` ≠ 1.0;
+- (d) median or trimmed mean, not the plain mean;
+- (e) reciprocal pairs that deviate strongly from the others' median are discounted;
+- (f) a cap on how far a single rater can move anyone's factor;
+- (g) results shown only in aggregate, with no rater names;
+- (h) a written reason is required for every score.
+
+Still options: random sample audits by the circle or the tribe, and a small anti-spam cost per attestation. Collabberry has none of these defenses (studied 2026-10-23, MIT code, ideas only). Each validation is an attestation by a named person, so rings are visible to the auditor even though results are shown aggregated (07 J-1, J-6; lighthouse-platform ADR-012) |
 
 ## 5. Simulation: first Monte Carlo pass
 
@@ -138,6 +150,7 @@ flowchart LR
 
 - Validate with people (Paruch): test the SAFU and the membership with real participants at the Feb 2027 Gathering, as a measured experiment.
 - Federation (Ostrom, Beer): one Mother Series per node or one for all? How does a program with several foundations govern itself?
+- Peer evaluation and K11: which mix of mitigations, and how it ties to Semillas issuance (07 J-2, J-6).
 - RAIZ internals under B: credit backing (I2 of doc 03), community commitment pooling, and whether an augmented bonding curve still has a role now that cash yield lives in the Units.
 
 ---
@@ -147,3 +160,6 @@ flowchart LR
 - Method: [[02 - Design Lens (the council)]]: Zargham (requirements → invariants → simulation → monitoring; conviction voting), McConaghy (simulation-led token engineering), Meadows (stocks, flows, leverage points), Leveson (STPA), Ostrom (polycentric commons), Brand (pace layering), Scott (over-legibility), Goodhart's law [S].
 - Models: `sim/series_waterfall_sim.py` and `sim/series_montecarlo_sim.py` (stdlib); results in `sim/RESULTS_series_waterfall.md` and `sim/RESULTS_series_montecarlo.md`. All inputs are illustrative assumptions [criterio].
 - Earlier invariants and hazards: [[03 - Long-Term Vision]] §7 (I1–I8, H1–H9), adapted here for design B.
+- J11 and K11: private call Gus – external web3 developer, 2026-10-23 [^web3]; mitigations are [criterio].
+
+[^web3]: Private call Gus – external web3 developer, 2026-10-23; platform summary in `../NS_platform/Documentation/reuniones/2026-10-23 - Consultoría web3 (filtrado plataforma).md`.

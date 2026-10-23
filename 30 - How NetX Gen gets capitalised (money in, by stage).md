@@ -75,7 +75,7 @@ NetX Gen is **the company**: the designer, manager and platform. It is not the l
   - it is the product we can **license to other projects** (B2B).
 - **The lever that changes the arithmetic is B2B** [criterio]: selling the platform and the kit to other regenerative projects and developers. At, say, USD 1,000 a month per node, covering the burn takes ~31 nodes. Another way: price the licence as a share of each node's development budget, not as a subscription.
 - **The Founding Pass is not NetX money.** USD 49k–171k in the same scenarios, but it goes to the commons (the Foundation). In the low case it doesn't reach the USD 75k minimum of the cohort.
-- **Congreso tickets** are sold on UnityHub by the event's organiser; they are not counted here.
+- **Congreso tickets** are sold on UnityHub by the event's organiser; they are not counted here. *(2026-10-23: the Congreso was cancelled; smaller community events replace it, see [[07 - Open Questions and Research Backlog]] I-15.)*
 
 ## 3. Lots: why not now, and what to do instead
 
