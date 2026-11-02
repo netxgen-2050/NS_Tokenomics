@@ -75,6 +75,20 @@ NetX Gen (gestor) ──► PROGRAMA DE FIDEICOMISOS (series: piloto, compost/bi
 21. Una vez aprobado el loteo, ¿se pueden aceptar certificados como **medio de pago** del derecho de superficie de una vivienda, en igualdad de condiciones con cualquiera, sin que eso cuente como reserva o prioridad prohibida antes de la aprobación?
 22. ¿Puede una "serie madre" del programa tener certificados de las demás series?
 
+### G. Cobros a través de la plataforma (agregada el 2026-10-23)
+23. Hoy la regla es que **la plata nunca pasa por la plataforma ni por NetX**: la plataforma registra y deriva al receptor legal. Estamos evaluando quitarla [verify]. Si la plataforma (NetX SAS) cobrara membresías, el Pase Fundador, suscripciones de las comunidades o aportes en lugar del fiduciario:
+    - ¿NetX pasa a ser **sujeto obligado ante la UIF** (prevención de lavado)?
+    - ¿Le aplican las reglas de **proveedor de servicios de pago (PSP) del BCRA**?
+    - Si algún cobro se parece a una inversión, ¿entra en la órbita de la **CNV** (oferta pública o financiamiento colectivo, Ley 27.349)?
+    - ¿Cómo se factura y tributa (IVA, ganancias)?
+    - ¿Qué obligaciones de **defensa del consumidor** aplican (arrepentimiento, baja, reembolsos)?
+    - ¿Quién responde ante **contracargos**?
+    
+    Alternativas que queremos que compare:
+    - (a) un procesador de pagos de terceros, como MercadoPago o Stripe, como vendedor registrado (merchant of record);
+    - (b) que cobre siempre el fiduciario;
+    - (c) que NetX SAS cobre solo membresías que no sean inversión, y todo lo que se parezca a inversión vaya al fiduciario.
+
 ## 3. Qué le pedimos
 
 - Una opinión breve por pregunta: funciona / funciona con cambios / no funciona, y por qué.

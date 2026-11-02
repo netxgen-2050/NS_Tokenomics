@@ -68,6 +68,50 @@ A person can be a member of several holons at once: **NetX network ⊃ Lighthous
 - ❓ Weights w_T, w_P, w_S: calibrate with a simulation of 200 synthetic members (as doc 10 of NS_platform suggested).
 - ❓ How does a trust revocation work without becoming a social-exclusion weapon? (Graduated sanctions, appeal to mediation.)
 
+## 7. Fractal / holocratic layers (added 2026-10-23)
+
+🌱 People take part in small **circles** inside their tribe. Tribes take part in the **commons** (the Lighthouse as a community of communities). Each layer **validates the one below**: the commons validates tribes, tribes validate people. Proposals start local and move up only if the local layer approves them.
+
+This comes from Gus's design for the Fogón and the web3 consult of 2026-10-23 [^web3]. It extends §5 (holonic membership) with a decision path [criterio]:
+
+| Layer | Who | What it decides | What it validates |
+|---|---|---|---|
+| **Circle** | Members of a tribe working on one domain (e.g. marketing, land care, architecture) | Its own operational work, inside the tribe's mandate | Pacts and contributions in its domain (peer evaluation, see [[29 - Systems design pass for B (requirements, invariants, hazards, simulation)]] K11) |
+| **Tribe** (12 planned) | Its members | Its rituals, admission by conduct (Ley 23.592), its budget share | People (membership 0/1, pacts) |
+| **Commons / meta-community** | All tribes through their representatives | Cross-tribe proposals, shared budget | Tribes (admission, standing) |
+| **Council of representatives** | One representative per tribe | Proposals already approved inside a tribe that ask the commons for resources | — |
+
+The council follows the pattern of Celo's regional communities: each region decides locally, and a board with one representative per region votes on proposals that come up from the regions, including requests for funds from the shared treasury [^web3] [NC: not checked against Celo's current governance docs].
+
+```mermaid
+flowchart BT
+  P[Person] -->|pact, peer-evaluated| C[Circle]
+  C --> T[Tribe ×12]
+  T -->|representative| K[Council of representatives]
+  K --> M[Commons / Lighthouse]
+  M -. validates .-> T
+  T -. validates .-> P
+```
+
+Plain text: people make pacts that their circle evaluates. Circles sit inside tribes. Each tribe sends one representative to the council, which decides for the commons. Validation flows down (commons → tribe → person); proposals flow up.
+
+Fit with the existing rules: rights still cascade **upward by delegation** (§5, the diode). Residents' matters stay **one person, one vote** (rule 6), so the council does not decide residents' matters. Which recipe from §3 each layer uses (QF, conviction, consent) is ❓ open. The attestation layer for validations (EAS, off-chain first) is 07 J-1.
+
+**Circles can be transversal (added 2026-10-23).** A circle can span several tribes, or no area of the land, for work that crosses the whole project (e.g. water for the Lighthouse, communication of the commons). Such a circle hangs from the commons and lists the tribes that take part [^uh].
+
+### 7.1 Deliberation: Formal Consensus with AI facilitation (added 2026-10-23)
+
+🌱 Gus does not trust voting as the main way to decide: the problem in collective governance is that people do not listen to each other [^uh]. So the **primary path for decisions** is **Formal Consensus**: present the proposal → clarifying questions → concerns → resolve or modify → consensus, stand aside, or block (with a reason). An **AI facilitates listening**: it summarises positions, surfaces open concerns, reflects back and flags noise. It **never decides**, the same rule as the "Voice of the Land" [criterio]. Gus is already training an AI to facilitate this online (about two weeks of tests, [NC]).
+
+**Quadratic voting is not demoted.** It stays a valid mechanism for **distributing resources, setting priorities and curating** anything (decision of Gus, 2026-10-23). Both coexist. Which decision type uses which mechanism is ❓ open and will be defined later (07 J-9).
+
+Ideas to explore, not decisions:
+- **"Localized consensus fields" with credibility thresholds** (UnityHub's founder, 2026-10-23): your voice carries weight in a local field once you pass validated criteria such as education pathway and social credibility; otherwise it counts as noise [^uh] [NC]. This is close to "voice with context" in the platform spec `fogon-consenso-formal`, where in the prototype the context (active pact, presence, membership) is **shown only and does not weigh anything**.
+- **Noise reduction** as a design goal: balance the diversity of voices against the noise that makes processes fail [^uh].
+- **References to review:** Colony (reputation and multi-currency payments; Gus has followed it since 2016) and Nestor (a platform for sociocratic and holocratic organisations) [^uh] [NC].
+
+Platform spec: `lighthouse-platform/openspec/changes/fogon-consenso-formal` (simulated facilitation, no real AI yet).
+
 ## Sources & logic used
 
 - Logic: Ostrom's design principles and polycentric governance; pace layering; the diode (see [[02 - Design Lens (the council)]]).
@@ -81,3 +125,5 @@ A person can be a member of several holons at once: **NetX network ⊃ Lighthous
 [^call]: Private call Gus–Gabriel, 2026-10-02 (private transcript).
 [^drs]: DRS/fideicomiso research 2026-09-29 §5 (PH especial; admission by assembly invalid; 1 person 1 vote by regulation).
 [^compliance]: `../NS_platform/Documentation/Desarrollo/03 - Compliance by design.md` C8–C10.
+[^web3]: Private call Gus – external web3 developer, 2026-10-23; platform summary in `../NS_platform/Documentation/reuniones/2026-10-23 - Consultoría web3 (filtrado plataforma).md`.
+[^uh]: Call NetX Gen × UnityHub, 2026-10-23 (Gus with UnityHub's founder, developer and business lead); recording kept by Gus. Includes a user's feedback on transversal layers.
