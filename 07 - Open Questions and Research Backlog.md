@@ -166,8 +166,28 @@ Source: private call between Gus and an external web3 developer, 2026-10-23, and
 | J-9 | **Which mechanism for which decision type.** Formal Consensus with AI facilitation for decisions and proposals; quadratic voting for distributing resources, prioritising and curating (Gus, 2026-10-23: QV is **not** demoted); conviction voting for slow parameters (29 §6). Define the mapping per decision type and per layer (circle, tribe, commons, council), plus the "voice with context" criteria. See [[10 - Governance Primitives (options)]] §7.1 | ❓ open, to detail later | Gus | with the Fogón redesign |
 | J-8 | The consultant's comment that **USD 500k "is only the first step"** for ~1,000 ha of desert regeneration: check [[30 - How NetX Gen gets capitalised (money in, by stage)]] against the full regeneration capex | ❓ open | Vagner + Gus | next model pass |
 
+## K. After the 2026-11-16 call (FARO, Token Tierra, Token Inversor)
+
+Notes: [[32 - Call 2026-11-16 (FARO, Token Tierra, Token Inversor - inputs and actions)]]. Gus's draft for the shared document: [[34 - Propuesta para Juanpi y Franz (FARO, Token Tierra y Token Inversor)]]. **Gus, 2026-11-19: what was said in the call comes before earlier decisions in this repo; hard law still binds.** The rules this touches are listed in 32 §4 and 34 §8.
+
+| # | Item | Status | Owner | When |
+|---|---|---|---|---|
+| K-1 | **One trust per neighbourhood** | ✅ agreed in the call | Franz + Juanpi + Gus | — |
+| K-2 | **FARO doesn't raise capital**: capital enters through Token Tierra and Token Inversor; FARO is the commons membership, with no market and no price to defend (34 §2–3) | Proposed by Gus; to agree with Juanpi, with Franz's backing | Gus + Juanpi + Franz | next call |
+| K-3 | **Token Inversor: pay as instalments arrive** (target premium, maximum term) instead of a fixed buy-back date. `sim/RESULTS_barrio_stack.md`: at 12 months the base case holds 21% of what it owes | Proposed | Juanpi + Gus | next call |
+| K-4 | **FARO transfers in version 1**: only together with the lot; review after 12 months of use data | Proposed | Gus + Juanpi | next call |
+| K-5 | **Name**: FARO for the Lighthouse commons token; RAIZ kept in reserve. Changes A2; joins I-8 | ❓ team decision | Team | with K-2 |
+| K-6 | **Voice**: one person, one vote on residents' matters; capped FARO on the commons treasury and resources | Proposed | Gus | with K-2 |
+| K-7 | **Tether**: keep "investor" and "tokenisation rail" as two conversations; tokenised equity and land inside the company stay out of this agreement (Ley 26.737 [verify]); no exclusivity | Proposed | Franz + Juanpi | before any signature |
+| K-8 | **Vagner's costs** (sent as a PDF, not in the repo): load them into `sim/barrio_stack_sim.py` and `sim/lot_sale_sim.py`; the lot price, the owner's share or the infrastructure cost has to move for a neighbourhood to repay its funders | ❓ open | Gus + Vagner | this week |
+| K-9 | **Six new questions for counsel** (34 §9): tokenised instalment plan as a boleto; Token Inversor as a negotiable security; the route for USD 100 tickets; FARO as prepaid services; a commons contribution on resale; FARO credited with instalments | ❓ open; add to [[27 - Brief para el abogado (preguntas)]] when a firm is hired (I-2) | Gus | with I-2 |
+| K-10 | **Does the Token Inversor pay a toll to the commons when issued?** Today the model only has the 5% on lot payments | ❓ open | Juanpi + Gus | next model pass |
+| K-11 | **Bauwens bibliography** received from Franz (2026-11-16): reading notes in [[33 - Bauwens bibliography (P2P and the commons) - reading notes]]; decide which ideas become design requirements | Proposed | Franz + Gus | next call |
+| K-12 | Retire or adapt the earlier tokenomics docs once K-2 is agreed (extends I-6): 03, 04, 09, 15 and 28 describe RAIZ and the series without lot sales | ❓ open, after K-2 | Gus | after the agreement |
+
 ## Sources & logic used
 
+- Section K: private call "Plataforma | Tokenomics y MicroFunding", 2026-11-16; slides of 2026-11-09; shared working document "Tokenomics & Plataforma | Trimestre de Fuego"; `sim/barrio_stack_sim.py` v0.1; Gus's instruction of 2026-11-19 on priority [criterio].
 - Section J: private call Gus – external web3 developer, 2026-10-23, and Gus's decisions the same day [criterio].
 - Section G: call of 2026-10-12 and comparison of this repo with Franz's document, read 2026-10-13 [criterio].
 - Section H: Gabriel's vault inventory of 2026-10-13 (shareable parts only) and [[20 - Land structure after Próspera and reply to Franz]].
