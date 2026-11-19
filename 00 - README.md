@@ -15,6 +15,8 @@ This repository holds the **token and capital design for the Lighthouse** (~1,00
 
 > 🔴 **2026-10-23: the February 2027 Gathering ("The Hatch", doc 04) was cancelled.** Docs that assume it as the genesis event are read with that in mind; what to re-anchor is task I-15 in [[07 - Open Questions and Research Backlog]].
 
+> 🟢 **2026-11-16: the commons token is discussed as FARO, next to Token Tierra and Token Inversor in one trust per neighbourhood.** Start with [[34 - Propuesta para Juanpi y Franz (FARO, Token Tierra y Token Inversor)]] and [[32 - Call 2026-11-16 (FARO, Token Tierra, Token Inversor - inputs and actions)]]. Per Gus (2026-11-19), that call comes before earlier decisions in this repo; hard law still binds.
+
 > ⚖️ **Legal redesign (2026-10-17):** the legal structure is being redesigned from scratch in docs 22–27 (centre: [[25 - Legal design v0.1 (Land Foundation + Regeneration Trust Program)]]): the land in a perpetual foundation, investors funding projects on surface rights through a trust program, with a capped yield. The 60-second answer below still describes the previous design; adapting it and the tokenomics is listed as tasks in 07 §I.
 
 ## 1. The answer in 60 seconds
@@ -78,6 +80,10 @@ Every document starts with a **🌱 "In one breath"** plain-language summary. Re
 | 28 | **Tokenomics for design B (series, early money, investor journeys)** | Legal-by-design tokenomics for design B: what a series is, the capital stack and waterfall, the SAFU for early money, the Mother Series, two investor journeys (live here in 10 years; USD 1,000 in the wine), parameters to tune. Model: `sim/series_waterfall_sim.py` |
 | 29 | **Systems design pass for B** | Requirements, invariants J1–J10, feedback loops, hazards K1–K10, first Monte Carlo (`sim/series_montecarlo_sim.py`), who adjusts which parameter and how fast |
 | 30 | **How NetX Gen gets capitalised (money in, by stage)** | NetX's money by stage (SAFE, design contract with BioPueblo, development and management fees, licences); the runway arithmetic; why selling lots is not the shortcut and what to do instead |
+| 31 | **Lot sales for phase 1 (CEO decision 2026-11-02)** | Franz's decision to sell private lots in phase 1, the rules it breaks, the hybrid with the commons. Model: `sim/lot_sale_sim.py` |
+| 32 | **Call 2026-11-16 (FARO, Token Tierra, Token Inversor)** | What was agreed (one trust per neighbourhood), each one's position, claims to check, where the call departs from this repo |
+| 33 | **Bauwens bibliography (P2P and the commons): reading notes** | The eight texts Franz sent, what each says, and what they back or question in our design. Markdown copies: the two open-licence texts in `sources/bauwens/`, the other six in `private/bauwens/` (not pushed) |
+| 34 | **Propuesta para Juanpi y Franz (FARO, Token Tierra y Token Inversor)** (Spanish) | **Gus's draft for the shared document**: capital through Token Tierra and Token Inversor in a neighbourhood trust; FARO as the commons membership with no market; three bridges; decisions to take. Model: `sim/barrio_stack_sim.py` |
 | — | `Guía - usar este repo con tu IA.md` (Spanish) | **How the team uses this repo with Claude, ChatGPT or Gemini**: access, the one-file context pack, project instructions, starter prompts by role |
 | — | `context-pack/` | One-file snapshot of the repo for AI projects (`python3 scripts/build_context_pack.py` regenerates it) |
 | — | `assets/esquema-legal-B.png`, `assets/capitalizacion-netx.png` | One-image diagrams for sharing: design B, and how NetX gets capitalised (sources: the `.html` files next to them) |
